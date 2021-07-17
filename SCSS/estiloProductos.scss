@@ -1,0 +1,2653 @@
+@import "_variables.scss";
+@import "_clases.scss";
+
+* { margin: 0;
+    padding: 0;}
+
+// HOME // 
+
+#fondoFilosofiaHache{
+    @extend .bodyGeneral;
+
+        .grid{
+            @extend #gridSobreNos;
+
+            header {
+                width: 100%;
+                background-color: $colorFondo;
+                position: sticky;
+                z-index: 10;
+                top: 0px;
+                grid-area: header;
+        
+                    .divNav{
+                    width: 100%;
+                    background-color: $colorFondo;
+                    border: 1px solid $colorBordes;
+        
+                        .divUno{
+                        width: 10%;
+        
+                        
+                            .imgLogo {
+                             width: 100%;
+                             border: 1px solid $colorBordes;
+                            }
+        
+                        }
+
+                        .divUno:hover{
+                            border: 1px solid $colorBordes;
+                        }
+                    }
+        
+                    .ulUno
+                    {
+                    width: 100%;
+                    justify-content: space-evenly;
+                    align-items: center;
+        
+                        .botonesMenu{
+                         font-size: 90%;
+                        }
+        
+                        .botonesMenu:hover
+                        {
+                        transform: scale(1.2,1.2);
+                        transition: 0.5s;
+                        color: $colorBordes;
+                        }
+             
+                    } 
+                }
+
+            #mainProductos{
+                grid-area: main;
+                display:flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+
+                #sectionTitulo{
+                       width: 70%;
+                    height: 10%;
+                        display: flex;
+                    flex-direction: row;
+                        justify-content: center;
+                        margin-top: 5%;
+                .divTitulo
+                        {
+                            width: 70%;
+                                height: 30%;
+                                background-color: $colorFondo;
+                                border: 4px groove $colorBordes;
+                                opacity: 0.8;
+
+                                h1{
+                                    color:$colorBordes;
+                                    text-align: center;
+                                    margin-left: 30%;
+                                    margin-right: 30%;
+                                    font-family: $fuente;
+                                    padding-top: 5%;
+                                    font-size: 75%;
+                                }
+                                }
+
+                            }
+                #sectionVelas{
+                    display: grid;
+                    width: 90%;
+                    height: 30%;
+                    grid-template-columns: 3fr 3fr 3fr;
+                    grid-template-rows: 10% 30% 30% 30%;
+                    grid-template-areas: "titulo1 titulo2 titulo3"
+                                         "sobra1 modelos sobra2"
+                                         "img1 img2 img3"
+                                         "aromas aromas aromas";
+
+                        
+                                        #divVelas{
+                                            grid-area: titulo2;
+                                            background-color: $colorFondo;
+                                            border: 4px solid $colorBordes;
+                                            opacity: 0.8;
+                                            margin-bottom: 10%;
+                                           
+
+                                              h2{
+                                                font-size: 15px;
+                                                font-family: $fuente;
+                                                height: 50%;
+                                                text-align: center;
+                                                padding-top: 8%;
+                                                color: $colorBordes;
+                                              }
+                                        }
+
+                                        #divModelo{
+                                            grid-area: modelos;
+                                            background-color: $colorFondo;
+                                            border: 4px solid $colorBordes;
+                                            opacity: 0.8;
+                                            margin-bottom: 10%;
+                                            opacity: 0.85;
+
+                                             ul{
+                                                 height: 100%;
+                                                 list-style: none;
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 justify-content: space-evenly;
+                                                 align-content: space-around;
+                                                 padding: 0%;
+
+                                                li{
+                                                    width: 100%;
+                                                    text-align: center;
+
+                                                    p{
+                                                        font-family: $fuente;
+                                                        font-size: 10px;
+                                                    }
+                                                }
+
+                                             }
+                                        }
+
+                                        #divAromas
+                                        {
+                                            grid-area: aromas;
+                                            background-color: $colorFondo;
+                                            border: 4px solid $colorBordes;
+                                            opacity: 0.8;
+                                            display: grid;
+                                            grid-template-columns: 50% 50%;
+                                            grid-template-rows: 20% 80%;
+                                            grid-template-areas: "titulo titulo"
+                                                                  "uno dos";
+
+                                            .divAromasUno{
+                                                grid-area: titulo;
+
+                                                p{
+                                                    font-family: $fuente;
+                                                        font-size: 14px;
+                                                        text-align: center;
+                                                        text-decoration: underline;
+                                                        color: $colorBordes;
+                                                }
+                                            }
+
+                                            .divAromasDos{
+                                                grid-area: uno;
+                                            }
+
+                                            .divAromasTres{
+                                                grid-area: dos;
+                                            }
+
+                                            ul{ height: 100%;
+                                                list-style: none;
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: space-evenly;
+                                                align-content: space-around;
+                                                padding: 0%;
+
+                                                p{
+                                                    font-family: $fuente;
+                                                        font-size: 10px;
+                                                        text-align: center;
+                                                }
+
+                                            }
+                                        }
+
+                                        .divImagenUno
+                                        { grid-area: img1;
+                                            position: relative;
+                                          
+                                            img{
+                                                width: 100%;
+                                                border: 1px solid $colorFondo;
+                                               
+                                               
+                                            }
+
+                                            p{
+                                                position: absolute;
+                                                top: 0%;
+                                                left: 0%;
+                                                font-size: 10px;
+                                                font-family: 'Hind Siliguri', sans-serif;
+                                                margin-left: 2%;
+                                                color: $colorBordes;
+                                                
+
+                                            } 
+
+                                        }
+
+                                        .divImagenDos
+                                        {grid-area: img2;
+                                         position: relative;
+                                            img{
+                                                width: 100%;
+                                                border: 1px solid $colorFondo;
+                                                
+                                            }
+                                            p{
+                                                position: absolute;
+                                                top: 0%;
+                                                left: 0%;
+                                                font-size: 10px;
+                                                font-family: 'Hind Siliguri', sans-serif;
+                                                margin-left: 2%;
+                                                color: $colorBordes;
+                                                
+
+                                            } 
+                                        }
+
+                                        .divImagenTres
+                                        {grid-area: img3;
+                                         position: relative;
+                                            img{
+                                                width: 100%;
+                                                border: 1px solid $colorFondo;
+                                                
+                                                
+                                            }
+
+                                            p{
+                                                position: absolute;
+                                                top: 0%;
+                                                left: 0%;
+                                                font-size: 10px;
+                                                font-family: 'Hind Siliguri', sans-serif;
+                                                margin-left: 2%;
+                                                color: white;
+                                                
+
+                                            } 
+                                        }
+                        }
+
+                        #sectionSpray
+                        {
+                            display: grid;
+                            width: 90%;
+                            height: 20%;
+                            grid-template-columns: 3fr 3fr 3fr;
+                            grid-template-rows: 16% 42% 42%;
+                            grid-template-areas: "titulo1 titulo2 titulo3"
+                                                 "img1 img2 img3"
+                                                 "aromas aromas aromas";
+
+                                                 #divSpray{
+                                                    grid-area: titulo1;
+                                                    background-color: $colorFondo;
+                                                    border: 4px solid $colorBordes;
+                                                    opacity: 0.8;
+                                                    margin-bottom: 10%;
+                                                   
+        
+                                                      h3{
+                                                        font-size: 15px;
+                                                        font-family: $fuente;
+                                                        height: 50%;
+                                                        text-align: center;
+                                                        padding-top: 8%;
+                                                        color: $colorBordes;
+                                                      }
+                                                }
+
+
+                                                #divDifusor{
+                                                    grid-area: titulo3;
+                                                    background-color: $colorFondo;
+                                                    border: 4px solid $colorBordes;
+                                                    opacity: 0.8;
+                                                    margin-bottom: 10%;
+                                                   
+        
+                                                      h3{
+                                                        font-size: 15px;
+                                                        font-family: $fuente;
+                                                        height: 50%;
+                                                        text-align: center;
+                                                        padding-top: 8%;
+                                                        color: $colorBordes;
+                                                      }
+                                                }
+        
+        
+                                                #divAromas
+                                                {
+                                                    grid-area: aromas;
+                                                    background-color: $colorFondo;
+                                                    border: 4px solid $colorBordes;
+                                                    opacity: 0.8;
+                                                    display: grid;
+                                                    grid-template-columns: 50% 50%;
+                                                    grid-template-rows: 20% 80%;
+                                                    grid-template-areas: "titulo titulo"
+                                                                          "uno dos";
+        
+                                                    .divAromasUno{
+                                                        grid-area: titulo;
+        
+                                                        p{
+                                                            font-family: $fuente;
+                                                                font-size: 14px;
+                                                                text-align: center;
+                                                                text-decoration: underline;
+                                                                color: $colorBordes;
+                                                        }
+                                                    }
+        
+                                                    .divAromasDos{
+                                                        grid-area: uno;
+                                                    }
+        
+                                                    .divAromasTres{
+                                                        grid-area: dos;
+                                                    }
+        
+                                                    ul{ height: 100%;
+                                                        list-style: none;
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        justify-content: space-evenly;
+                                                        align-content: space-around;
+                                                        padding: 0%;
+        
+                                                        p{
+                                                            font-family: $fuente;
+                                                                font-size: 10px;
+                                                                text-align: center;
+                                                        }
+        
+                                                    }
+                                                }
+        
+                                                .divImagenUno
+                                                { grid-area: img1;
+                                                    position: relative;
+                                                  
+                                                    img{
+                                                        width: 100%;
+                                                        border: 1px solid $colorFondo;
+                                                       
+                                                       
+                                                    }
+        
+                                                
+        
+                                                }
+        
+                                                .divImagenDos
+                                                {grid-area: img3;
+                                                 position: relative;
+                                                    img{
+                                                        width: 100%;
+                                                        border: 1px solid $colorFondo;
+                                                        
+                                                    }
+                                                    
+                                                }
+        
+                                            
+                        }
+    
+            
+                        #sectionBox
+                        {
+                            display: grid;
+                            width: 90%;
+                            height: 20%;
+                            grid-template-columns: 3fr 3fr 3fr;
+                            grid-template-rows: 20% 40% 40%;
+                            grid-template-areas: "titulo1 titulo2 titulo3"
+                                                 "sobra1 img sobra2"
+                                                 "box box box";
+
+                                                 #divBox{
+                                                    grid-area: titulo2;
+                                                    background-color: $colorFondo;
+                                                    border: 4px solid $colorBordes;
+                                                    opacity: 0.8;
+                                                    margin-bottom: 10%;
+                                                   
+        
+                                                      h3{
+                                                        font-size: 15px;
+                                                        font-family: $fuente;
+                                                        height: 50%;
+                                                        text-align: center;
+                                                        padding-top: 8%;
+                                                        color: $colorBordes;
+                                                      }
+                                                }
+
+
+        
+        
+                                                #divContiene
+                                                {
+                                                    grid-area: box;
+                                                    background-color: $colorFondo;
+                                                    border: 4px solid $colorBordes;
+                                                    opacity: 0.8;
+                                                    display: grid;
+                                                    grid-template-columns: 50% 50%;
+                                                    grid-template-rows: 20% 80%;
+                                                    grid-template-areas: "titulo titulo"
+                                                                          "contenido contenido";
+        
+                                                    .divBoxDos{
+                                                        grid-area: titulo;
+        
+                                                        p{
+                                                            font-family: $fuente;
+                                                                font-size: 14px;
+                                                                text-align: center;
+                                                                text-decoration: underline;
+                                                                color: $colorBordes;
+                                                        }
+                                                    }
+        
+                                                    .divBoxTres{
+                                                        grid-area: contenido;
+                                                    }
+        
+
+        
+                                                    ul{ height: 100%;
+                                                        list-style: none;
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        justify-content: space-evenly;
+                                                        align-content: space-around;
+                                                        padding: 0%;
+        
+                                                        p{
+                                                            font-family: $fuente;
+                                                                font-size: 10px;
+                                                                text-align: center;
+                                                        }
+        
+                                                    }
+                                                }
+        
+                                                .divImagenUno
+                                                { grid-area: img;
+                                                    position: relative;
+                                                  
+                                                    img{
+                                                        width: 100%;
+                                                        border: 1px solid $colorFondo;
+                                                       
+                                                       
+                                                    }
+        
+                                                
+        
+                                                }
+        
+                                        
+        
+                                            
+                        }
+    
+            
+        }
+
+        footer {
+            background-color: $colorFondo;
+            border: 2px solid $colorBordes;
+            grid-area: footer;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-end; 
+
+            #divFooterUno{
+                width: 50%;
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+
+                .divFooter { 
+                    width: 10%;
+                    margin-left: 5px;
+
+                    #logoIg {
+                        width: 80%;
+                        
+                    }
+                    
+                    #logoIg:hover{
+                        transform: scale(1.2,1.2);
+                        transition: 0.5s;
+                    }
+                    
+                    #logoWp {
+                        width: 80%;
+                          
+                    }
+                    
+                    #logoWp:hover{
+                        transform: scale(1.2,1.2);
+                        transition: 0.5s;
+                    }
+                   }
+            }
+            
+            #divFooterDos{
+                width: 50%;
+
+                .divCopyright
+                    { display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;}
+
+                    .parrafoCopyright {
+                        color:$colorBordes;
+                        font-family: $fuente;
+                        margin-bottom: 0;
+                    }
+            }
+        }
+}
+}
+
+ 
+//MEDIA QUERY//
+
+
+// ENTRE 400 y 600PX //
+
+
+@media only screen and (max-width: 600px)
+{
+    #fondoFilosofiaHache{
+        height: 2500px;
+        
+        .grid{ 
+            grid-template-rows: 2% 96.7% 1.3%;
+            
+            header{
+
+                .divNav{
+
+                
+
+                    .divUno{
+                    width: 12%;  
+                    }
+
+                    
+                }
+
+                .ulUno
+                { .botonesMenu{
+                    font-size: 70%;
+                    }
+                }
+            }
+            
+            #mainProductos{
+                grid-area: main;
+                display:flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+
+                #sectionTitulo{
+                       width: 70%;
+                    height: 10%;
+                        display: flex;
+                    flex-direction: row;
+                        justify-content: center;
+                        margin-top: 5%;
+                        
+                .divTitulo
+                        {
+                            width: 60%;
+                                height: 20%;
+                                background-color: $colorFondo;
+                                border: 3px groove $colorBordes;
+                                opacity: 0.8;
+                               
+
+                                h1{
+                                    color:$colorBordes;
+                                    text-align: center;
+                                    margin-left: 30%;
+                                    margin-right: 30%;
+                                    font-family: $fuente;
+                                    padding-top: 9%;
+                                    font-size: 75%;
+                                }
+                                }
+
+                            }
+                #sectionVelas{
+                    display: grid;
+                    width: 90%;
+                    height: 25%;
+                    grid-template-columns: 3fr 3fr 3fr;
+                    grid-template-rows: 10% 30% 35% 25%;
+                    grid-template-areas: "titulo1 titulo2 titulo3"
+                                         "sobra1 modelos sobra2"
+                                         "img1 img2 img3"
+                                         "aromas aromas aromas";
+
+                        
+                                        #divVelas{
+                                            grid-area: titulo2;
+                                            background-color: $colorFondo;
+                                            border: 3px solid $colorBordes;
+                                            opacity: 0.8;
+                                            margin-bottom: 5%;
+                                            
+                                           
+
+                                              h2{
+                                                font-size: 13px;
+                                                font-family: $fuente;
+                                                height: 50%;
+                                                text-align: center;
+                                                padding-top: 8%;
+                                              }
+                                        }
+
+                                        #divModelo{
+                                            grid-area: modelos;
+                                            background-color: $colorFondo;
+                                            border: 3px solid $colorBordes;
+                                            opacity: 0.8;
+                                            margin-bottom: 10%;
+                                          
+
+                                             ul{
+                                                 height: 100%;
+                                                 list-style: none;
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 justify-content: space-evenly;
+                                                 align-content: space-around;
+                                                 padding: 0%;
+
+                                                li{
+                                                    width: 100%;
+                                                    text-align: center;
+
+                                                    p{
+                                                        font-family: $fuente;
+                                                        font-size: 11px;
+                                                    }
+                                                }
+
+                                             }
+                                        }
+
+                                        #divAromas
+                                        {
+                                            grid-area: aromas;
+                                            background-color: $colorFondo;
+                                            border: 3px solid $colorBordes;
+                                            opacity: 0.8;
+                                            display: grid;
+                                            grid-template-columns: 50% 50%;
+                                            grid-template-rows: 20% 80%;
+                                            grid-template-areas: "titulo titulo"
+                                                                  "uno dos";
+                                                                  opacity: 0.85;
+
+                                            .divAromasUno{
+                                                grid-area: titulo;
+
+                                                p{
+                                                    font-family: $fuente;
+                                                        font-size: 12px;
+                                                        text-align: center;
+                                                        text-decoration: underline;
+                                                }
+                                            }
+
+                                            .divAromasDos{
+                                                grid-area: uno;
+                                            }
+
+                                            .divAromasTres{
+                                                grid-area: dos;
+                                            }
+
+                                            ul{ height: 100%;
+                                                list-style: none;
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: space-evenly;
+                                                align-content: space-around;
+                                                padding: 0%;
+
+                                                p{
+                                                    font-family: $fuente;
+                                                        font-size: 10px;
+                                                        text-align: center;
+                                                }
+
+                                            }
+                                        }
+
+                                        .divImagenUno
+                                        { grid-area: img1;
+                                            position: relative;
+                                          
+                                            img{
+                                                width: 100%;
+                                                border: 1px solid $colorFondo;
+                                               
+                                               
+                                            }
+
+                                            p{
+                                                position: absolute;
+                                                top: 0%;
+                                                left: 0%;
+                                                font-size: 10px;
+                                                font-family: 'Hind Siliguri', sans-serif;
+                                                margin-left: 2%;
+                                                color: $colorBordes;
+                                                
+
+                                            } 
+
+                                        }
+
+                                        .divImagenDos
+                                        {grid-area: img2;
+                                         position: relative;
+                                            img{
+                                                width: 100%;
+                                                border: 1px solid $colorFondo;
+                                                
+                                            }
+                                            p{
+                                                position: absolute;
+                                                top: 0%;
+                                                left: 0%;
+                                                font-size: 10px;
+                                                font-family: 'Hind Siliguri', sans-serif;
+                                                margin-left: 2%;
+                                                color: $colorBordes;
+                                                
+
+                                            } 
+                                        }
+
+                                        .divImagenTres
+                                        {grid-area: img3;
+                                         position: relative;
+                                            img{
+                                                width: 100%;
+                                                border: 1px solid $colorFondo;
+                                                
+                                                
+                                            }
+
+                                            p{
+                                                position: absolute;
+                                                top: 0%;
+                                                left: 0%;
+                                                font-size: 10px;
+                                                font-family: 'Hind Siliguri', sans-serif;
+                                                margin-left: 2%;
+                                                color: white;
+                                                
+
+                                            } 
+                                        }
+                        }
+
+                        #sectionSpray
+                        {
+                            display: grid;
+                            width: 90%;
+                            height: 25%;
+                            grid-template-columns: 3fr 3fr 3fr;
+                            grid-template-rows: 16% 42% 42%;
+                            grid-template-areas: "titulo1 titulo2 titulo3"
+                                                 "img1 img2 img3"
+                                                 "aromas aromas aromas";
+
+                                                 #divSpray{
+                                                    grid-area: titulo1;
+                                                    background-color: $colorFondo;
+                                                    border: 3px solid $colorBordes;
+                                                    opacity: 0.8;
+                                                    margin-bottom: 10%;
+                                                    
+                                                   
+        
+                                                      h3{
+                                                        font-size: 12px;
+                                                        font-family: $fuente;
+                                                        height: 50%;
+                                                        text-align: center;
+                                                        padding-top: 15%;
+                                                      }
+                                                }
+
+
+                                                #divDifusor{
+                                                    grid-area: titulo3;
+                                                    background-color: $colorFondo;
+                                                    border: 3px solid $colorBordes;
+                                                    opacity: 0.8;
+                                                    margin-bottom: 10%;
+                                                   
+                                                   
+        
+                                                      h3{
+                                                        font-size: 12px;
+                                                        font-family: $fuente;
+                                                        height: 50%;
+                                                        text-align: center;
+                                                        padding-top: 15%;
+                                                      }
+                                                }
+        
+        
+                                                #divAromas
+                                                {
+                                                    grid-area: aromas;
+                                                    background-color: $colorFondo;
+                                                    border: 3px solid $colorBordes;
+                                                    opacity: 0.8;
+                                                    display: grid;
+                                                    grid-template-columns: 50% 50%;
+                                                    grid-template-rows: 20% 80%;
+                                                    grid-template-areas: "titulo titulo"
+                                                                          "uno dos";
+                                                                          ;
+        
+                                                    .divAromasUno{
+                                                        grid-area: titulo;
+        
+                                                        p{
+                                                            font-family: $fuente;
+                                                                font-size: 12px;
+                                                                text-align: center;
+                                                                text-decoration: underline;
+                                                        }
+                                                    }
+        
+                                                    .divAromasDos{
+                                                        grid-area: uno;
+                                                    }
+        
+                                                    .divAromasTres{
+                                                        grid-area: dos;
+                                                    }
+        
+                                                    ul{ height: 100%;
+                                                        list-style: none;
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        justify-content: space-evenly;
+                                                        align-content: space-around;
+                                                        padding: 0%;
+        
+                                                        p{
+                                                            font-family: $fuente;
+                                                                font-size: 10px;
+                                                                text-align: center;
+                                                        }
+        
+                                                    }
+                                                }
+        
+                                                .divImagenUno
+                                                { grid-area: img1;
+                                                    position: relative;
+                                                  
+                                                    img{
+                                                        width: 100%;
+                                                        border: 1px solid $colorFondo;
+                                                       
+                                                       
+                                                    }
+        
+                                                
+        
+                                                }
+        
+                                                .divImagenDos
+                                                {grid-area: img3;
+                                                 position: relative;
+                                                    img{
+                                                        width: 100%;
+                                                        border: 1px solid $colorFondo;
+                                                        
+                                                    }
+                                                    
+                                                }
+        
+                                            
+                        }
+    
+            
+                        #sectionBox
+                        {
+                            display: grid;
+                            width: 90%;
+                            height: 20%;
+                            grid-template-columns: 3fr 3fr 3fr;
+                            grid-template-rows: 20% 40% 40%;
+                            grid-template-areas: "titulo1 titulo2 titulo3"
+                                                 "sobra1 img sobra2"
+                                                 "box box box";
+
+                                                 #divBox{
+                                                    grid-area: titulo2;
+                                                    background-color: $colorFondo;
+                                                    border: 3px solid $colorBordes;
+                                                    opacity: 0.8;
+                                                    margin-bottom: 10%;
+                                                    
+                                                   
+        
+                                                      h3{
+                                                        font-size: 13px;
+                                                        font-family: $fuente;
+                                                        height: 50%;
+                                                        text-align: center;
+                                                        padding-top: 15%;
+                                                      }
+                                                }
+
+
+        
+        
+                                                #divContiene
+                                                {
+                                                    grid-area: box;
+                                                    background-color: $colorFondo;
+                                                    border: 3px solid $colorBordes;
+                                                    opacity: 0.8;
+                                                    display: grid;
+                                                    grid-template-columns: 50% 50%;
+                                                    grid-template-rows: 20% 80%;
+                                                    grid-template-areas: "titulo titulo"
+                                                                          "contenido contenido";
+        
+                                                    .divBoxDos{
+                                                        grid-area: titulo;
+        
+                                                        p{
+                                                            font-family: $fuente;
+                                                                font-size: 11px;
+                                                                text-align: center;
+                                                                text-decoration: underline;
+                                                                padding-top: 2%;
+                                                        }
+                                                    }
+        
+                                                    .divBoxTres{
+                                                        grid-area: contenido;
+                                                    }
+        
+
+        
+                                                    ul{ height: 100%;
+                                                        list-style: none;
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        justify-content: space-evenly;
+                                                        align-content: space-around;
+                                                        padding: 0%;
+        
+                                                        p{
+                                                            font-family: $fuente;
+                                                                font-size: 10px;
+                                                                text-align: center;
+                                                        }
+        
+                                                    }
+                                                }
+        
+                                                .divImagenUno
+                                                { grid-area: img;
+                                                    position: relative;
+                                                  
+                                                    img{
+                                                        width: 100%;
+                                                        border: 1px solid $colorFondo;
+                                                       
+                                                       
+                                                    }
+        
+                                                
+        
+                                                }
+        
+                                        
+        
+                                            
+                        }
+    
+            
+        }
+
+        
+        
+                .parrafoCopyright {
+                font-size: 60%;
+                }
+        
+    
+            
+        }
+}
+}
+
+
+// HASTA 400PX //
+
+@media only screen and (max-width: 400px)
+{
+    #fondoFilosofiaHache{
+        height: 2000px;
+        
+        .grid{ 
+            grid-template-rows: 2% 96.7% 1.3%;
+            
+            header{
+
+                .divNav{
+
+                
+
+                    .divUno{
+                    width: 15%;  
+                    }
+
+                    
+                }
+
+                .ulUno
+                { .botonesMenu{
+                    font-size: 70%;
+                    }
+                }
+            }
+            
+            #mainProductos{
+               
+
+                #sectionTitulo{
+                   
+                     
+                        
+                .divTitulo
+                        {
+                            width: 60%;
+                                height: 20%;
+                        
+                               
+
+                                h1{
+                                
+                                    font-size: 60%;
+                                }
+                                }
+
+                            }
+                #sectionVelas{
+                    
+                    grid-template-rows: 10% 35% 30% 25%;
+                        
+                                        #divVelas{
+                                    
+                                          
+                                            
+                                           
+
+                                              h2{
+                                                font-size: 11px;
+                                                padding-top: 10%;
+                                              }
+                                        }
+
+                                        #divModelo{
+                                    
+                                            
+                                          
+
+                                             ul{
+                                                
+
+                                                li{
+                                                    
+
+                                                    p{
+                                                    
+                                                        font-size: 8px;
+                                                    }
+                                                }
+
+                                             }
+                                        }
+
+                                        #divAromas
+                                        {
+                                           
+
+                                            .divAromasUno{
+                                               
+
+                                                p{
+                                                    
+                                                        font-size: 9px;
+                                                       
+                                                }
+                                            }
+
+                                            
+
+                                            ul{ 
+
+                                                p{
+                                                    
+                                                        font-size: 9px;
+                                                       
+                                                }
+
+                                            }
+                                        }
+
+                                        .divImagenUno
+                                        { grid-area: img1;
+                                            position: relative;
+                                          
+                                            img{
+                                                width: 100%;
+                                                border: 1px solid $colorFondo;
+                                               
+                                               
+                                            }
+
+                                            p{
+                                                position: absolute;
+                                                top: 0%;
+                                                left: 0%;
+                                                font-size: 10px;
+                                                font-family: 'Hind Siliguri', sans-serif;
+                                                margin-left: 2%;
+                                                color: $colorBordes;
+                                                
+
+                                            } 
+
+                                        }
+
+                                        
+                        }
+
+                        #sectionSpray
+                        {
+                           
+                            height: 20%;
+                            grid-template-rows: 15% 45% 40%;
+                           
+
+                                                 #divSpray{
+                                                    
+                                                    
+                                                   
+        
+                                                      h3{
+                                                        font-size: 11px;
+                                                        padding-top: 15%;
+                                                      }
+                                                }
+
+
+                                                #divDifusor{
+                                                    
+                                                   
+                                                   
+        
+                                                      h3{
+                                                        font-size: 11px;
+                                                        padding-top: 12%;
+                                                      }
+                                                }
+        
+        
+                                                #divAromas
+                                                {
+                                                   
+                                                    .divAromasUno{
+                                                        
+        
+                                                        p{
+                                                        font-size: 9px;
+                                                                
+                                                        }
+                                                    }
+        
+        
+                                                    ul{
+        
+                                                        p{
+                                                           
+                                                                font-size: 9px;
+                                                              
+                                                        }
+        
+                                                    }
+                                                }
+        
+        
+                                            
+                        }
+    
+            
+                        #sectionBox
+                        {
+                           
+                            height: 20%;
+                            grid-template-columns: 25% 50% 25%;
+                            grid-template-rows: 15% 45% 40%;
+        
+
+                                                 #divBox{
+                                                   
+        
+                                                      h3{
+                                                        font-size: 11px;
+                                                        padding-top: 8%;
+                                                      }
+                                                }
+
+
+        
+        
+                                                #divContiene
+                                                {
+                                            
+        
+                                                    .divBoxDos{
+                                                       
+        
+                                                        p{
+                                                        
+                                                                font-size: 9px;
+                                                                padding-top: 2%;
+                                                        }
+                                                    }
+        
+                                                    .divBoxTres{
+                                                        grid-area: contenido;
+                                                    }
+        
+
+        
+                                                    ul{ 
+                                                        p{
+                                                        
+                                                                font-size: 9px;
+                                                            
+                                                        }
+        
+                                                    }
+                                                }
+        
+                                                
+        
+                                        
+        
+                                            
+                        }
+    
+            
+        }
+        
+                .parrafoCopyright {
+                font-size: 60%;
+                }
+        
+    
+            
+        }
+}
+}
+
+
+// DESDE 600PX //
+
+@media only screen and (min-width: 600px)
+{
+    #fondoFilosofiaHache{
+        height: 3000px;
+        
+        .grid{ 
+            grid-template-rows: 2% 96.7% 1.3%;
+            
+            header{
+
+                .divNav{
+
+                
+
+                    .divUno{
+                    width: 12%;  
+                    }
+
+                    
+                }
+
+                .ulUno
+                { .botonesMenu{
+                    font-size: 70%;
+                    }
+                }
+            }
+            
+            #mainProductos{
+               
+
+                #sectionTitulo{
+                    width: 70%;
+                    height: 10%;
+                     
+                        
+                .divTitulo
+                        {
+                            width: 60%;
+                                height: 20%;
+                        
+                               
+
+                                h1{
+                                
+                                    font-size: 85%;
+                                   
+                                }
+                                }
+
+                            }
+                #sectionVelas{ 
+                    grid-template-rows: 10% 35% 30% 25%;
+                        
+                                        #divVelas{
+                                    
+                                         
+                                            
+                                           
+
+                                              h2{
+                                                font-size: 13px;
+                                                padding-top: 10%;
+                                              }
+                                        }
+
+                                        #divModelo{
+                                    
+                                            
+                                          
+
+                                             ul{
+                                                
+
+                                                li{
+                                                    
+
+                                                    p{
+                                                    
+                                                        font-size: 11.5px;
+                                                    }
+                                                }
+
+                                             }
+                                        }
+
+                                        #divAromas
+                                        {
+                                           
+
+                                            .divAromasUno{
+                                               
+
+                                                p{
+                                                    
+                                                        font-size: 13px;
+                                                       
+                                                }
+                                            }
+
+                                            
+
+                                            ul{ 
+
+                                                p{
+                                                    
+                                                        font-size: 11.5px;
+                                                       
+                                                }
+
+                                            }
+                                        }
+
+                                        .divImagenUno
+                                        { grid-area: img1;
+                                            position: relative;
+                                          
+                                            img{
+                                                width: 100%;
+                                                border: 1px solid $colorFondo;
+                                               
+                                               
+                                            }
+
+                                            p{
+                                                position: absolute;
+                                                top: 0%;
+                                                left: 0%;
+                                                font-size: 11px;
+                                                font-family: 'Hind Siliguri', sans-serif;
+                                                margin-left: 2%;
+                                                color: $colorBordes;
+                                                
+
+                                            } 
+
+                                        }
+
+                                        
+                        }
+
+                        #sectionSpray
+                        {
+                           
+                            height: 20%;
+                            grid-template-rows: 15% 45% 40%;
+                           
+
+                                                 #divSpray{
+                                                    
+                                                    
+                                                   
+        
+                                                      h3{
+                                                        font-size: 13px;
+                                                        padding-top: 10%;
+                                                      }
+                                                }
+
+
+                                                #divDifusor{
+                                                    
+                                                   
+                                                   
+        
+                                                      h3{
+                                                        font-size: 13px;
+                                                        padding-top: 10%;
+                                                      }
+                                                }
+        
+        
+                                                #divAromas
+                                                {
+                                                   
+                                                    .divAromasUno{
+                                                        
+        
+                                                        p{
+                                                        font-size: 12px;
+                                                                
+                                                        }
+                                                    }
+        
+        
+                                                    ul{
+        
+                                                        p{
+                                                           
+                                                                font-size:11.5px;
+                                                              
+                                                        }
+        
+                                                    }
+                                                }
+
+                                                .divImagenUno
+                                                { 
+                                                  
+                                                    img{
+                                                        width: 90%;
+                                                        margin-left: 5%;
+                                                        margin-right: 5%;
+                                                       
+                                                                                                          }
+        
+                                                  }
+
+
+                                                  .divImagenDos
+                                                { 
+                                                  
+                                                    img{
+                                                        width: 90%;
+                                                        margin-left: 5%;
+                                                        margin-right: 5%;
+                                                       
+                                                                                                          }
+        
+                                                  }
+        
+                                            
+                        }
+    
+            
+                        #sectionBox
+                        {
+                           
+                            
+                            grid-template-columns: 25% 50% 25%;
+                            grid-template-rows: 15% 45% 40%;
+        
+
+                                                 #divBox{
+                                                   
+        
+                                                      h3{
+                                                        font-size: 13px;
+                                                        padding-top: 5%;
+                                                      }
+                                                }
+
+
+        
+        
+                                                #divContiene
+                                                {
+                                            
+        
+                                                    .divBoxDos{
+                                                       
+        
+                                                        p{
+                                                        
+                                                                font-size: 12px;
+                                                                padding-top: 2%;
+                                                        }
+                                                    }
+        
+                                                    .divBoxTres{
+                                                        grid-area: contenido;
+                                                    }
+        
+
+        
+                                                    ul{ 
+                                                        p{
+                                                        
+                                                                font-size: 11.5px;
+                                                            
+                                                        }
+        
+                                                    }
+                                                }
+        
+                                                
+        
+                                                .divImagenUno
+                                                { 
+                                                  
+                                                    img{
+                                                        width: 80%;
+                                                        margin-right: 10%;
+                                                        margin-left: 10%;
+                                                      
+                                                       
+                                                       
+                                                    }
+                                                }
+                                            
+                        }
+    
+            
+        }
+        
+                .parrafoCopyright {
+                font-size: 60%;
+                }
+        
+    
+            
+        }
+}
+}
+
+
+
+// DESDE 768PX //
+
+@media only screen and (min-width: 768px)
+{
+    #fondoFilosofiaHache{
+       height: 3500px;
+        
+        .grid{ 
+            grid-template-rows: 2% 96.5% 1.5%;
+            
+            header{
+
+                .divNav{
+
+                
+
+                    .divUno{
+                    width: 10%;  
+                    }
+
+                    
+                }
+
+                .ulUno
+                { .botonesMenu{
+                    font-size: 70%;
+                    }
+                }
+            }
+            
+            #mainProductos{
+               
+
+                #sectionTitulo{
+                    width: 70%;
+                    height: 10%;
+                     
+                        
+                .divTitulo
+                        {
+                            width: 60%;
+                                height: 20%;
+                        
+                               
+
+                                h1{
+                                
+                                    font-size: 100%;
+                                    
+                                }
+                                }
+
+                            }
+                #sectionVelas{ 
+                   
+                        
+                                        #divVelas{
+                                    
+                                         
+                                            
+                                           
+
+                                              h2{
+                                                font-size: 14px;
+                                                padding-top: 10%;
+                                              }
+                                        }
+
+                                        #divModelo{
+                                    
+                                            
+                                          
+
+                                             ul{
+                                                
+
+                                                li{
+                                                    
+
+                                                    p{
+                                                    
+                                                        font-size: 12px;
+                                                    }
+                                                }
+
+                                             }
+                                        }
+
+                                        #divAromas
+                                        {
+                                           
+
+                                            .divAromasUno{
+                                               
+
+                                                p{
+                                                    
+                                                        font-size: 13px;
+                                                       
+                                                }
+                                            }
+
+                                            
+
+                                            ul{ 
+
+                                                p{
+                                                    
+                                                        font-size: 12px;
+                                                       
+                                                }
+
+                                            }
+                                        }
+
+                                        .divImagenUno
+                                        { 
+                                          
+                                            img{
+                                                width: 90%;
+                                                margin-left: 5%;
+                                                margin-right: 5%;
+                                               
+                                               
+                                            }
+                                            p{
+                                                left: 5%;
+                                                font-size: 12px;
+                                               
+
+                                            }
+
+                                        }
+
+                                        .divImagenDos
+                                        { 
+                                          
+                                            img{
+                                                width: 90%;
+                                                margin-left: 5%;
+                                                margin-right: 5%;
+                                               
+                                            }
+
+                                            p{
+                                                left: 5%;
+                                                font-size: 12px;
+                                               
+
+                                            }
+                                        }
+
+                                        .divImagenTres
+                                        { 
+                                          
+                                            img{
+                                                width: 90%;
+                                                margin-left: 5%;
+                                                margin-right: 5%;
+                                               
+                                            }
+
+                                            p{
+                                                left: 5%;
+                                                font-size: 12px;
+                                               
+
+                                            }
+                                        }
+
+                                        
+                        }
+
+                        #sectionSpray
+                        {
+                           
+                           
+                            grid-template-rows: 15% 45% 40%;
+                           
+
+                                                 #divSpray{
+                                                    
+                                                    
+                                                   
+        
+                                                      h3{
+                                                        font-size: 13px;
+                                                        padding-top: 10%;
+                                                      }
+                                                }
+
+
+                                                #divDifusor{
+                                                    
+                                                   
+                                                   
+        
+                                                      h3{
+                                                        font-size: 13px;
+                                                        padding-top: 10%;
+                                                      }
+                                                }
+        
+        
+                                                #divAromas
+                                                {
+                                                   
+                                                    .divAromasUno{
+                                                        
+        
+                                                        p{
+                                                        font-size: 13px;
+                                                                
+                                                        }
+                                                    }
+        
+        
+                                                    ul{
+        
+                                                        p{
+                                                           
+                                                                font-size:12px;
+                                                              
+                                                        }
+        
+                                                    }
+                                                }
+
+                                                .divImagenUno
+                                                { 
+                                                  
+                                                    img{
+                                                        width: 82%;
+                                                        margin-left: 9%;
+                                                        margin-right: 9%;
+                                                       
+                                                                                                          }
+        
+                                                  }
+
+
+                                                  .divImagenDos
+                                                { 
+                                                  
+                                                    img{
+                                                        width: 82%;
+                                                        margin-left: 9%;
+                                                        margin-right: 9%;
+                                                       
+                                                                                                          }
+        
+                                                  }
+        
+                                            
+                        }
+    
+            
+                        #sectionBox
+                        {
+                           
+                            
+                            
+        
+
+                                                 #divBox{
+                                                   
+        
+                                                      h3{
+                                                        font-size: 14px;
+                                                        padding-top: 5%;
+                                                      }
+                                                }
+
+
+        
+        
+                                                #divContiene
+                                                {
+                                            
+        
+                                                    .divBoxDos{
+                                                       
+        
+                                                        p{
+                                                        
+                                                                font-size: 13px;
+                                                                padding-top: 2%;
+                                                        }
+                                                    }
+        
+                                                    .divBoxTres{
+                                                        grid-area: contenido;
+                                                    }
+        
+
+        
+                                                    ul{ 
+                                                        p{
+                                                        
+                                                                font-size: 12px;
+                                                            
+                                                        }
+        
+                                                    }
+                                                }
+        
+                                                
+        
+                                                .divImagenUno
+                                                { 
+                                                  
+                                                    img{
+                                                        width: 70%;
+                                                        margin-right: 15%;
+                                                        margin-left: 15%;
+                                                      
+                                                       
+                                                       
+                                                    }
+                                                }
+                                            
+                        }
+    
+            
+        }
+        
+        
+                .parrafoCopyright {
+                font-size: 60%;
+                }
+        
+    
+            
+        }
+}
+}
+
+
+// DESDE 992PX //
+
+@media only screen and (min-width: 992px)
+{
+    #fondoFilosofiaHache{
+       height: 4000px;
+        
+        .grid{ 
+            grid-template-rows: 2% 96.5% 1.5%;
+            
+            header{
+
+                .divNav{
+
+                
+
+                    .divUno{
+                    width: 8%;  
+                    }
+
+                    
+                }
+
+                .ulUno
+                { .botonesMenu{
+                    font-size: 70%;
+                    }
+                }
+            }
+            
+            #mainProductos{
+               
+
+                #sectionTitulo{
+                    width: 70%;
+                    height: 10%;
+                     
+                        
+                .divTitulo
+                        {
+                            width: 60%;
+                                height: 20%;
+                        
+                               
+
+                                h1{
+                                
+                                    font-size: 110%;
+                                   
+                                }
+                                }
+
+                            }
+                #sectionVelas{ 
+                   
+                        
+                                        #divVelas{
+                                    
+                                         
+                                            
+                                           
+
+                                              h2{
+                                                font-size: 15px;
+                                                padding-top: 9%;
+                                              }
+                                        }
+
+                                        #divModelo{
+                                    
+                                            
+                                          
+
+                                             ul{
+                                                
+
+                                                li{
+                                                    
+
+                                                    p{
+                                                    
+                                                        font-size: 13px;
+                                                    }
+                                                }
+
+                                             }
+                                        }
+
+                                        #divAromas
+                                        {
+                                           
+
+                                            .divAromasUno{
+                                               
+
+                                                p{
+                                                    
+                                                        font-size: 14px;
+                                                       
+                                                }
+                                            }
+
+                                            
+
+                                            ul{ 
+
+                                                p{
+                                                    
+                                                        font-size: 13px;
+                                                       
+                                                }
+
+                                            }
+                                        }
+
+                                        .divImagenUno
+                                        { 
+                                          
+                                            img{
+                                                width: 86%;
+                                                margin-left: 7%;
+                                                margin-right: 7%;
+                                               
+                                               
+                                            }
+                                            p{
+                                                left: 5%;
+                                                font-size: 12px;
+                                               
+
+                                            }
+
+                                        }
+
+                                        .divImagenDos
+                                        { 
+                                          
+                                            img{
+                                                width: 86%;
+                                                margin-left: 7%;
+                                                margin-right: 7%;
+                                               
+                                            }
+
+                                            p{
+                                                left: 5%;
+                                                font-size: 12px;
+                                               
+
+                                            }
+                                        }
+
+                                        .divImagenTres
+                                        { 
+                                          
+                                            img{
+                                                width: 86%;
+                                                margin-left: 7%;
+                                                margin-right: 7%;
+                                               
+                                            }
+
+                                            p{
+                                                left: 5%;
+                                                font-size: 12px;
+                                               
+
+                                            }
+                                        }
+
+                                        
+                        }
+
+                        #sectionSpray
+                        {
+                           
+                           
+                           
+                           
+
+                                                 #divSpray{
+                                                    
+                                                    
+                                                   
+        
+                                                      h3{
+                                                        font-size: 15px;
+                                                        padding-top: 9%;
+                                                      }
+                                                }
+
+
+                                                #divDifusor{
+                                                    
+                                                   
+                                                   
+        
+                                                      h3{
+                                                        font-size: 15px;
+                                                        padding-top: 9%;
+                                                      }
+                                                }
+        
+        
+                                                #divAromas
+                                                {
+                                                   
+                                                    .divAromasUno{
+                                                        
+        
+                                                        p{
+                                                        font-size: 14px;
+                                                                
+                                                        }
+                                                    }
+        
+        
+                                                    ul{
+        
+                                                        p{
+                                                           
+                                                                font-size:13px;
+                                                              
+                                                        }
+        
+                                                    }
+                                                }
+
+                                                .divImagenUno
+                                                { 
+                                                  
+                                                    img{
+                                                        width: 74%;
+                                                        margin-left: 13%;
+                                                        margin-right: 13%;
+                                                       
+                                                                                                          }
+        
+                                                  }
+
+
+                                                  .divImagenDos
+                                                { 
+                                                  
+                                                    img{
+                                                        width: 74%;
+                                                        margin-left: 13%;
+                                                        margin-right: 13%;
+                                                       
+                                                                                                          }
+        
+                                                  }
+        
+                                            
+                        }
+    
+            
+                        #sectionBox
+                        {
+                           
+                            
+                            
+        
+
+                                                 #divBox{
+                                                   
+        
+                                                      h3{
+                                                        font-size: 14px;
+                                                        padding-top: 5%;
+                                                      }
+                                                }
+
+
+        
+        
+                                                #divContiene
+                                                {
+                                            
+        
+                                                    .divBoxDos{
+                                                       
+        
+                                                        p{
+                                                        
+                                                                font-size: 14px;
+                                                                padding-top: 2%;
+                                                        }
+                                                    }
+        
+                                                    .divBoxTres{
+                                                        grid-area: contenido;
+                                                    }
+        
+
+        
+                                                    ul{ 
+                                                        p{
+                                                        
+                                                                font-size: 13px;
+                                                            
+                                                        }
+        
+                                                    }
+                                                }
+        
+                                                
+        
+                                                .divImagenUno
+                                                { 
+                                                  
+                                                    img{
+                                                        width: 60%;
+                                                        margin-right: 20%;
+                                                        margin-left: 20%;
+                                                      
+                                                       
+                                                       
+                                                    }
+                                                }
+                                            
+                        }
+    
+            
+        }
+        
+        
+                .parrafoCopyright {
+                font-size: 60%;
+                }
+        
+    
+            
+        }
+}
+}
+
+
+
+// DESDE 1080PX //
+
+@media only screen and (min-width: 1080px)
+{
+    #fondoFilosofiaHache{
+        height: 4500px;
+        
+        .grid{ 
+            grid-template-rows: 2% 96.7% 1.3%;
+            
+            header{
+
+                .divNav{
+
+                
+
+                    .divUno{
+                    width: 7%;  
+                    }
+
+                    
+                }
+
+                .ulUno
+                { .botonesMenu{
+                    font-size: 70%;
+                    }
+                }
+            }
+            
+            #mainProductos{
+               
+
+                #sectionTitulo{
+                    width: 70%;
+                    height: 10%;
+                     
+                        
+                .divTitulo
+                        {
+                            width: 60%;
+                                height: 20%;
+                        
+                               
+
+                                h1{
+                                
+                                    font-size: 140%;
+                                   
+                                }
+                                }
+
+                            }
+                #sectionVelas{ 
+                   
+                        
+                                        #divVelas{
+                                    
+                                         
+                                            
+                                           
+
+                                              h2{
+                                                font-size: 16px;
+                                                padding-top: 9%;
+                                              }
+                                        }
+
+                                        #divModelo{
+                                    
+                                            
+                                          
+
+                                             ul{
+                                                
+
+                                                li{
+                                                    
+
+                                                    p{
+                                                    
+                                                        font-size: 14px;
+                                                    }
+                                                }
+
+                                             }
+                                        }
+
+                                        #divAromas
+                                        {
+                                           
+
+                                            .divAromasUno{
+                                               
+
+                                                p{
+                                                    
+                                                        font-size: 15px;
+                                                       
+                                                }
+                                            }
+
+                                            
+
+                                            ul{ 
+
+                                                p{
+                                                    
+                                                        font-size: 15px;
+                                                       
+                                                }
+
+                                            }
+                                        }
+
+                                        .divImagenUno
+                                        { 
+                                          
+                                            img{
+                                                width: 86%;
+                                                margin-left: 7%;
+                                                margin-right: 7%;
+                                               
+                                               
+                                            }
+                                            p{
+                                                left: 6%;
+                                                font-size: 12px;
+                                               
+
+                                            }
+
+                                        }
+
+                                        .divImagenDos
+                                        { 
+                                          
+                                            img{
+                                                width: 86%;
+                                                margin-left: 7%;
+                                                margin-right: 7%;
+                                               
+                                            }
+
+                                            p{
+                                                left: 6%;
+                                                font-size: 12px;
+                                               
+
+                                            }
+                                        }
+
+                                        .divImagenTres
+                                        { 
+                                          
+                                            img{
+                                                width: 86%;
+                                                margin-left: 7%;
+                                                margin-right: 7%;
+                                               
+                                            }
+
+                                            p{
+                                                left: 6%;
+                                                font-size: 12px;
+                                               
+
+                                            }
+                                        }
+
+                                        
+                        }
+
+                        #sectionSpray
+                        {
+                           
+                           
+                           
+                           
+
+                                                 #divSpray{
+                                                    
+                                                    
+                                                   
+        
+                                                      h3{
+                                                        font-size: 16px;
+                                                        padding-top: 9%;
+                                                      }
+                                                }
+
+
+                                                #divDifusor{
+                                                    
+                                                   
+                                                   
+        
+                                                      h3{
+                                                        font-size: 16px;
+                                                        padding-top: 9%;
+                                                      }
+                                                }
+        
+        
+                                                #divAromas
+                                                {
+                                                   
+                                                    .divAromasUno{
+                                                        
+        
+                                                        p{
+                                                        font-size: 15px;
+                                                                
+                                                        }
+                                                    }
+        
+        
+                                                    ul{
+        
+                                                        p{
+                                                           
+                                                                font-size:15px;
+                                                              
+                                                        }
+        
+                                                    }
+                                                }
+
+                                                .divImagenUno
+                                                { 
+                                                  
+                                                    img{
+                                                        width: 78%;
+                                                        margin-left: 11%;
+                                                        margin-right: 11%;
+                                                       
+                                                                                                          }
+        
+                                                  }
+
+
+                                                  .divImagenDos
+                                                { 
+                                                  
+                                                    img{
+                                                        width: 78%;
+                                                        margin-left: 11%;
+                                                        margin-right: 11%;
+                                                       
+                                                                                                          }
+        
+                                                  }
+        
+                                            
+                        }
+    
+            
+                        #sectionBox
+                        {
+                           
+                            
+                            
+        
+
+                                                 #divBox{
+                                                   
+        
+                                                      h3{
+                                                        font-size: 16px;
+                                                        padding-top: 4%;
+                                                      }
+                                                }
+
+
+        
+        
+                                                #divContiene
+                                                {
+                                            
+        
+                                                    .divBoxDos{
+                                                       
+        
+                                                        p{
+                                                        
+                                                                font-size: 15px;
+                                                                padding-top: 2%;
+                                                        }
+                                                    }
+        
+                                                    .divBoxTres{
+                                                        grid-area: contenido;
+                                                    }
+        
+
+        
+                                                    ul{ 
+                                                        p{
+                                                        
+                                                                font-size: 14px;
+                                                            
+                                                        }
+        
+                                                    }
+                                                }
+        
+                                                
+        
+                                                .divImagenUno
+                                                { 
+                                                  
+                                                    img{
+                                                        width: 66%;
+                                                        margin-right: 17%;
+                                                        margin-left: 17%;
+                                                      
+                                                       
+                                                       
+                                                    }
+                                                }
+                                            
+                        }
+    
+            
+        }
+        
+        
+                .parrafoCopyright {
+                font-size: 80%;
+                }
+        
+    
+            
+        }
+}
+}
