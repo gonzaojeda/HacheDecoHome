@@ -302,13 +302,13 @@
 
 @media only screen and (max-width: 600px) {
   #fondoFilosofiaHache {
-    height: 1500px; }
+    height: 1400px; }
     #fondoFilosofiaHache .grid {
       grid-template-rows: 2% 96% 2%; }
       #fondoFilosofiaHache .grid header .divNav .divUno {
         width: 12%; }
       #fondoFilosofiaHache .grid header .ulUno .botonesMenu {
-        font-size: 70%; }
+        font-size: 90%; }
       #fondoFilosofiaHache .grid #mainContacto {
         grid-area: main;
         display: flex;
@@ -317,17 +317,18 @@
         justify-content: space-around; }
         #fondoFilosofiaHache .grid #mainContacto #sectionContacto {
           width: 90%;
-          height: 60%;
+          height: 70%;
           display: flex;
           flex-direction: column;
           justify-content: space-around;
           align-items: center; }
           #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm {
-            width: 80%;
+            width: 90%;
             border-radius: 2px;
+            height: 50%;
             background-image: linear-gradient(to bottom, #DACDBC, #a79585);
-            margin-bottom: 60%;
-            margin-top: -20%;
+            margin-bottom: 30%;
+            margin-top: -30%;
             opacity: 0.9; }
             #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form {
               width: 100%;
@@ -344,7 +345,7 @@
                   #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend .parrafoFormulario {
                     color: #5C4E41;
                     font-family: "Lato", sans-serif;
-                    font-size: 50%;
+                    font-size: 55%;
                     font-weight: bold; }
                 #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol {
                   list-style-type: none;
@@ -467,7 +468,7 @@
                       color: #DACDBC; }
           #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes {
             width: 60%;
-            height: 100%;
+            height: 40%;
             border: 2px solid #5C4E41;
             background-image: linear-gradient(to bottom, #DACDBC, #a79585);
             display: flex;
@@ -504,7 +505,8 @@
           display: flex;
           flex-direction: row;
           justify-content: center;
-          margin-top: 5%;
+          margin-top: 10%;
+          margin-bottom: 0%;
           opacity: 0.85; }
           #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo {
             width: 70%;
@@ -517,8 +519,8 @@
               margin-left: 30%;
               margin-right: 30%;
               font-family: "Lato", sans-serif;
-              padding-top: 7%;
-              font-size: 70%; }
+              padding-top: 6%;
+              font-size: 85%; }
       #fondoFilosofiaHache .grid .parrafoCopyright {
         font-size: 60%; } }
 
@@ -526,61 +528,70 @@
   #fondoFilosofiaHache {
     height: 1000px; }
     #fondoFilosofiaHache .grid {
-      grid-template-rows: 3% 94% 3%; }
+      grid-template-rows: 3% 94.8% 2.2%; }
       #fondoFilosofiaHache .grid header .divNav .divUno {
         width: 15%; }
       #fondoFilosofiaHache .grid header .ulUno .botonesMenu {
-        font-size: 70%; }
-      #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm {
-        opacity: 0.9; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend .parrafoFormulario {
-          font-size: 40%; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .labelForm {
-          font-size: 9px; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .inputEfecto {
-          font-size: 9px; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .labelForm {
-          color: #352a20;
-          font-family: "Lato", sans-serif;
-          font-size: 9px; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .inputEfecto {
-          font-size: 9px; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .labelForm {
-          font-size: 9px; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .inputEfecto {
-          font-size: 9px; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad .labelForm {
-          font-size: 9px; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad select {
-          font-size: 60%; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios {
-          width: 100%; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios .labelForm {
+        font-size: 90%; }
+      #fondoFilosofiaHache .grid #mainContacto #sectionContacto {
+        height: 70%; }
+        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm {
+          opacity: 0.9;
+          margin-bottom: 60%;
+          margin-top: -20%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend .parrafoFormulario {
+            font-size: 50%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .labelForm {
             font-size: 9px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios #floatingTextarea {
-            width: 100%;
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .inputEfecto {
+            font-size: 9px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .labelForm {
             color: #352a20;
             font-family: "Lato", sans-serif;
-            height: 140%;
             font-size: 9px; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos .labelForm {
-          font-size: 9px; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos #flexRadioDefault1 {
-          width: 6%;
-          margin-top: 0; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liForm .botonForm {
-          font-size: 65%; }
-      #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram img {
-        width: 100%; }
-      #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanLinkIg #botonHache {
-        font-size: 9px; }
-      #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo {
-        width: 85%;
-        height: 40%; }
-        #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo .tituloMain {
-          font-size: 55%;
-          height: 100%;
-          padding-top: 5%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .inputEfecto {
+            font-size: 9px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .labelForm {
+            font-size: 9px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .inputEfecto {
+            font-size: 9px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad .labelForm {
+            font-size: 9px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad select {
+            font-size: 60%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios {
+            width: 100%; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios .labelForm {
+              font-size: 9px; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios #floatingTextarea {
+              width: 100%;
+              color: #352a20;
+              font-family: "Lato", sans-serif;
+              height: 140%;
+              font-size: 9px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos .labelForm {
+            font-size: 9px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos #flexRadioDefault1 {
+            width: 7%;
+            margin-top: 0; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liForm .botonForm {
+            font-size: 65%; }
+        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes {
+          margin-bottom: 10%;
+          margin-top: -40%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram img {
+            width: 100%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanLinkIg #botonHache {
+            font-size: 9px; }
+      #fondoFilosofiaHache .grid #mainContacto .sectionTitulo {
+        margin-top: 5%;
+        margin-bottom: 0; }
+        #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo {
+          width: 85%;
+          height: 40%; }
+          #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo .tituloMain {
+            font-size: 70%;
+            padding-top: 4%; }
       #fondoFilosofiaHache .grid .parrafoCopyright {
         font-size: 60%; } }
 
@@ -588,11 +599,11 @@
   #fondoFilosofiaHache {
     height: 1900px; }
     #fondoFilosofiaHache .grid {
-      grid-template-rows: 3% 94% 3%; }
+      grid-template-rows: 3% 95% 2%; }
       #fondoFilosofiaHache .grid header .divNav .divUno {
         width: 12%; }
       #fondoFilosofiaHache .grid header .ulUno .botonesMenu {
-        font-size: 70%; }
+        font-size: 100%; }
       #fondoFilosofiaHache .grid #mainContacto #sectionContacto {
         height: 70%; }
         #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm {
@@ -601,7 +612,8 @@
           border-radius: 2px;
           background-image: linear-gradient(to bottom, #DACDBC, #a79585);
           margin-top: -20%;
-          opacity: 0.9; }
+          opacity: 0.9;
+          margin-bottom: 10%; }
           #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend {
             margin: 0;
             width: 100%; }
@@ -609,238 +621,12 @@
               font-size: 60%;
               text-align: center; }
           #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .labelForm {
-            font-size: 12px; }
+            font-size: 13px; }
           #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .inputEfecto {
-            font-size: 12px; }
+            font-size: 13px; }
           #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .labelForm {
             color: #352a20;
             font-family: "Lato", sans-serif;
-            font-size: 12px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .inputEfecto {
-            font-size: 12px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .labelForm {
-            font-size: 12px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .inputEfecto {
-            font-size: 12px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad .labelForm {
-            font-size: 12px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad select {
-            font-size: 70%; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios {
-            width: 100%; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios .labelForm {
-              font-size: 12px; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios #floatingTextarea {
-              width: 100%;
-              height: 160%;
-              font-size: 12px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos {
-            padding-top: 5%;
-            padding-bottom: -5%; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos .labelForm {
-              font-size: 12px; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos #flexRadioDefault1 {
-              width: 6%;
-              margin-top: 0; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liForm .botonForm {
-            font-size: 80%; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes {
-          width: 60%;
-          height: 40%;
-          opacity: 0.85; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram {
-            width: 60%; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram img {
-              width: 100%; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanLinkIg #botonHache {
-            font-size: 12px;
-            text-align: center; }
-      #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo {
-        width: 70%;
-        height: 30%; }
-        #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo .tituloMain {
-          font-size: 75%;
-          height: 100%;
-          padding-top: 5%; }
-      #fondoFilosofiaHache .grid .parrafoCopyright {
-        font-size: 60%; } }
-
-@media only screen and (min-width: 768px) {
-  #fondoFilosofiaHache {
-    height: 2100px; }
-    #fondoFilosofiaHache .grid {
-      grid-template-rows: 3% 94% 3%; }
-      #fondoFilosofiaHache .grid header .divNav .divUno {
-        width: 10%; }
-      #fondoFilosofiaHache .grid header .ulUno .botonesMenu {
-        font-size: 70%; }
-      #fondoFilosofiaHache .grid #mainContacto #sectionContacto {
-        height: 70%; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm {
-          width: 65%;
-          height: 40%;
-          margin-top: -20%; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend {
-            margin: 0;
-            width: 100%; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend .parrafoFormulario {
-              font-size: 60%;
-              text-align: center; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .labelForm {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .inputEfecto {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .labelForm {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .inputEfecto {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .labelForm {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .inputEfecto {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad .labelForm {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad select {
-            font-size: 70%; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios {
-            width: 100%; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios .labelForm {
-              font-size: 13px; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios #floatingTextarea {
-              width: 100%;
-              height: 160%;
-              font-size: 12px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos {
-            padding-top: 5%;
-            padding-bottom: -5%; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos .labelForm {
-              font-size: 13px; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos #flexRadioDefault1 {
-              width: 6%;
-              margin-top: 0; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liForm .botonForm {
-            font-size: 85%; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes {
-          width: 50%;
-          height: 35%; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram {
-            width: 50%; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram img {
-              width: 100%; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanLinkIg #botonHache {
-            font-size: 14px;
-            text-align: center; }
-      #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo {
-        width: 65%;
-        height: 40%; }
-        #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo .tituloMain {
-          font-size: 100%;
-          height: 100%;
-          padding-top: 5%; }
-      #fondoFilosofiaHache .grid .parrafoCopyright {
-        font-size: 60%; } }
-
-@media only screen and (min-width: 992px) {
-  #fondoFilosofiaHache {
-    height: 2300px; }
-    #fondoFilosofiaHache .grid {
-      grid-template-rows: 3% 94% 3%; }
-      #fondoFilosofiaHache .grid header .divNav .divUno {
-        width: 8%; }
-      #fondoFilosofiaHache .grid header .ulUno .botonesMenu {
-        font-size: 70%; }
-      #fondoFilosofiaHache .grid #mainContacto #sectionContacto {
-        height: 70%; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm {
-          width: 60%;
-          height: 35%;
-          margin-top: -20%; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend {
-            margin: 0;
-            width: 100%; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend .parrafoFormulario {
-              font-size: 60%;
-              text-align: center; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .labelForm {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .inputEfecto {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .labelForm {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .inputEfecto {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .labelForm {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .inputEfecto {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad .labelForm {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad select {
-            font-size: 70%; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios {
-            width: 100%; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios .labelForm {
-              font-size: 13px; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios #floatingTextarea {
-              width: 100%;
-              height: 160%;
-              font-size: 12px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos {
-            padding-top: 5%;
-            padding-bottom: -5%; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos .labelForm {
-              font-size: 13px; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos #flexRadioDefault1 {
-              width: 5%;
-              margin-top: 0; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liForm .botonForm {
-            font-size: 85%; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes {
-          width: 50%;
-          height: 35%; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram {
-            width: 50%; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram img {
-              width: 100%; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanLinkIg #botonHache {
-            font-size: 14px;
-            text-align: center; }
-      #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo {
-        width: 65%;
-        height: 40%; }
-        #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo .tituloMain {
-          font-size: 110%;
-          height: 100%;
-          padding-top: 5%; }
-      #fondoFilosofiaHache .grid .parrafoCopyright {
-        font-size: 60%; } }
-
-@media only screen and (min-width: 1080px) {
-  #fondoFilosofiaHache {
-    height: 2500px; }
-    #fondoFilosofiaHache .grid {
-      grid-template-rows: 3% 94% 3%; }
-      #fondoFilosofiaHache .grid header .divNav .divUno {
-        width: 7%; }
-      #fondoFilosofiaHache .grid header .ulUno .botonesMenu {
-        font-size: 70%; }
-      #fondoFilosofiaHache .grid #mainContacto #sectionContacto {
-        height: 70%; }
-        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm {
-          width: 60%;
-          height: 40%;
-          margin-top: -20%; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend {
-            margin: 0;
-            width: 100%; }
-            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend .parrafoFormulario {
-              font-size: 60%;
-              text-align: center; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .labelForm {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .inputEfecto {
-            font-size: 13px; }
-          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .labelForm {
             font-size: 13px; }
           #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .inputEfecto {
             font-size: 13px; }
@@ -859,22 +645,102 @@
             #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios #floatingTextarea {
               width: 100%;
               height: 160%;
-              font-size: 12px; }
+              font-size: 13px; }
           #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos {
             padding-top: 5%;
             padding-bottom: -5%; }
             #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos .labelForm {
               font-size: 13px; }
             #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos #flexRadioDefault1 {
-              width: 4%;
+              width: 6%;
               margin-top: 0; }
           #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liForm .botonForm {
-            font-size: 85%; }
+            font-size: 90%; }
         #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes {
-          width: 40%;
-          height: 25%; }
+          width: 60%;
+          height: 40%;
+          opacity: 0.85;
+          margin-bottom: 20%; }
           #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram {
-            width: 40%; }
+            width: 60%; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram img {
+              width: 100%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanLinkIg #botonHache {
+            font-size: 15px;
+            text-align: center; }
+      #fondoFilosofiaHache .grid #mainContacto .sectionTitulo {
+        margin-bottom: -20%;
+        margin-top: 0%; }
+        #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo {
+          width: 70%;
+          height: 30%; }
+          #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo .tituloMain {
+            font-size: 95%;
+            height: 100%;
+            padding-top: 4%; }
+      #fondoFilosofiaHache .grid .parrafoCopyright {
+        font-size: 70%; } }
+
+@media only screen and (min-width: 768px) {
+  #fondoFilosofiaHache {
+    height: 1900px; }
+    #fondoFilosofiaHache .grid {
+      grid-template-rows: 3% 94.7% 2.3%; }
+      #fondoFilosofiaHache .grid header .divNav .divUno {
+        width: 10%; }
+      #fondoFilosofiaHache .grid header .ulUno .botonesMenu {
+        font-size: 100%; }
+      #fondoFilosofiaHache .grid #mainContacto #sectionContacto {
+        height: 70%; }
+        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm {
+          width: 65%;
+          height: 45%;
+          margin-top: -10%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend {
+            margin: 0;
+            width: 100%; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend .parrafoFormulario {
+              font-size: 70%;
+              text-align: center; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .labelForm {
+            font-size: 14px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .inputEfecto {
+            font-size: 14px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .labelForm {
+            font-size: 14px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .inputEfecto {
+            font-size: 14px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .labelForm {
+            font-size: 14px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .inputEfecto {
+            font-size: 14px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad .labelForm {
+            font-size: 14px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad select {
+            font-size: 80%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios {
+            width: 100%; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios .labelForm {
+              font-size: 14px; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios #floatingTextarea {
+              width: 100%;
+              height: 160%;
+              font-size: 13px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos {
+            padding-top: 5%;
+            padding-bottom: -5%; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos .labelForm {
+              font-size: 14px; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos #flexRadioDefault1 {
+              width: 5%;
+              margin-top: 0; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liForm .botonForm {
+            font-size: 90%; }
+        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes {
+          width: 50%;
+          height: 35%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram {
+            width: 50%; }
             #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram img {
               width: 100%; }
           #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanLinkIg #botonHache {
@@ -884,8 +750,161 @@
         width: 65%;
         height: 40%; }
         #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo .tituloMain {
-          font-size: 110%;
-          height: 140%;
+          font-size: 120%;
+          height: 100%;
           padding-top: 5%; }
       #fondoFilosofiaHache .grid .parrafoCopyright {
-        font-size: 80%; } }
+        font-size: 75%; } }
+
+@media only screen and (min-width: 992px) {
+  #fondoFilosofiaHache {
+    height: 1900px; }
+    #fondoFilosofiaHache .grid {
+      grid-template-rows: 3% 94.5% 2.5%; }
+      #fondoFilosofiaHache .grid header .divNav .divUno {
+        width: 8%; }
+      #fondoFilosofiaHache .grid header .ulUno .botonesMenu {
+        font-size: 100%; }
+      #fondoFilosofiaHache .grid #mainContacto #sectionContacto {
+        height: 85%; }
+        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm {
+          width: 60%;
+          height: 35%;
+          margin-top: 0%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend {
+            margin: 0;
+            width: 100%; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend .parrafoFormulario {
+              font-size: 60%;
+              text-align: center; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .labelForm {
+            font-size: 15px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .inputEfecto {
+            font-size: 15px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .labelForm {
+            font-size: 15px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .inputEfecto {
+            font-size: 15px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .labelForm {
+            font-size: 15px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .inputEfecto {
+            font-size: 15px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad .labelForm {
+            font-size: 15px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad select {
+            font-size: 90%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios {
+            width: 100%; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios .labelForm {
+              font-size: 15px; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios #floatingTextarea {
+              width: 100%;
+              height: 160%;
+              font-size: 14px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos {
+            padding-top: 5%;
+            padding-bottom: -5%; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos .labelForm {
+              font-size: 15px; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos #flexRadioDefault1 {
+              width: 4%;
+              margin-top: 0; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liForm .botonForm {
+            font-size: 95%; }
+        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes {
+          width: 50%;
+          height: 35%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram {
+            width: 50%; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram img {
+              width: 100%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanLinkIg #botonHache {
+            font-size: 16px;
+            text-align: center; }
+      #fondoFilosofiaHache .grid #mainContacto .sectionTitulo {
+        margin-top: 10%;
+        margin-bottom: -5%; }
+        #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo {
+          width: 65%;
+          height: 40%; }
+          #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo .tituloMain {
+            font-size: 110%;
+            height: 100%;
+            padding-top: 5%; }
+      #fondoFilosofiaHache .grid .parrafoCopyright {
+        font-size: 85%; } }
+
+@media only screen and (min-width: 1080px) {
+  #fondoFilosofiaHache {
+    height: 1900px; }
+    #fondoFilosofiaHache .grid {
+      grid-template-rows: 3% 94% 3%; }
+      #fondoFilosofiaHache .grid header .divNav .divUno {
+        width: 7%; }
+      #fondoFilosofiaHache .grid header .ulUno .botonesMenu {
+        font-size: 100%; }
+      #fondoFilosofiaHache .grid #mainContacto #sectionContacto {
+        height: 90%; }
+        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm {
+          width: 60%;
+          height: 40%;
+          margin-top: 5%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend {
+            margin: 0;
+            width: 100%; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset legend .parrafoFormulario {
+              font-size: 80%;
+              text-align: center; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .labelForm {
+            font-size: 16px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liNombre .inputEfecto {
+            font-size: 16px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .labelForm {
+            font-size: 16px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTelef .inputEfecto {
+            font-size: 16px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .labelForm {
+            font-size: 16px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liEmail .inputEfecto {
+            font-size: 16px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad .labelForm {
+            font-size: 16px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liPublicidad select {
+            font-size: 95%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios {
+            width: 100%; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios .labelForm {
+              font-size: 16px; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol .liComentarios #floatingTextarea {
+              width: 100%;
+              height: 160%;
+              font-size: 15px; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos {
+            padding-top: 5%;
+            padding-bottom: -5%; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos .labelForm {
+              font-size: 16px; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liTerminos #flexRadioDefault1 {
+              width: 4%;
+              margin-top: 0; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainForm form fieldset ol #liForm .botonForm {
+            font-size: 100%; }
+        #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes {
+          width: 40%;
+          height: 30%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram {
+            width: 40%; }
+            #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanInstagram img {
+              width: 100%; }
+          #fondoFilosofiaHache .grid #mainContacto #sectionContacto #divMainRedes #spanLinkIg #botonHache {
+            font-size: 16px;
+            text-align: center; }
+      #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo {
+        width: 65%;
+        height: 40%; }
+        #fondoFilosofiaHache .grid #mainContacto .sectionTitulo .divTitulo .tituloMain {
+          font-size: 150%;
+          height: 140%;
+          padding-top: 3%; }
+      #fondoFilosofiaHache .grid .parrafoCopyright {
+        font-size: 100%; } }

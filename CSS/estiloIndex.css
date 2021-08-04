@@ -75,8 +75,8 @@
       justify-content: center;
       margin-top: 5%; }
     #fondoFilosofiaHache .grid #mainSobreNos #sectionSobreNos {
-      width: 70%;
-      height: 12%;
+      width: 80%;
+      height: 15%;
       display: flex;
       flex-direction: row;
       margin-top: -25%; }
@@ -145,11 +145,11 @@
   #fondoFilosofiaHache {
     height: 1500px; }
     #fondoFilosofiaHache .grid {
-      grid-template-rows: 3% 94% 3%; }
+      grid-template-rows: 3% 95% 2%; }
       #fondoFilosofiaHache .grid header .divNav .divUno {
         width: 12%; }
       #fondoFilosofiaHache .grid header .ulUno .botonesMenu {
-        font-size: 70%; }
+        font-size: 80%; }
       #fondoFilosofiaHache .grid #mainSobreNos .sectionTitulo .divTitulo {
         width: 70%;
         height: 40%;
@@ -159,11 +159,10 @@
         #fondoFilosofiaHache .grid #mainSobreNos .sectionTitulo .divTitulo .tituloMain {
           color: #5C4E41;
           text-align: center;
-          margin-left: 30%;
-          margin-right: 30%;
           font-family: "Lato", sans-serif;
-          padding-top: 5%;
-          font-size: 70%; }
+          padding-top: 6%;
+          font-size: 85%;
+          width: 100%; }
       #fondoFilosofiaHache .grid #mainSobreNos #sectionSobreNos #divSobreNos {
         width: 100%;
         height: 100%;
@@ -172,34 +171,36 @@
         opacity: 0.9; }
         #fondoFilosofiaHache .grid #mainSobreNos #sectionSobreNos #divSobreNos .parrafoSobreNos {
           color: #5C4E41;
-          font-size: 55%;
+          font-size: 65%;
           text-align: justify;
           font-family: "Lato", sans-serif;
           margin: 1% 2% 2% 2%; }
-      #fondoFilosofiaHache .grid #mainSobreNos #divFilosofiaHache {
-        width: 50%;
-        height: 25%;
-        background-color: #DACDBC;
-        border: 1px dashed #5C4E41; }
-        #fondoFilosofiaHache .grid #mainSobreNos #divFilosofiaHache #tituloFilosofiaHache {
-          color: #5C4E41;
-          font-size: 70%;
-          height: 100%;
-          text-align: center;
-          margin-left: 10px;
-          margin-right: 10px;
-          margin-top: 5%;
-          font-family: "Lato", sans-serif; }
+      #fondoFilosofiaHache .grid #mainSobreNos #sectionFilosofiaHache {
+        margin: 0; }
+        #fondoFilosofiaHache .grid #mainSobreNos #sectionFilosofiaHache #divFilosofiaHache {
+          width: 50%;
+          height: 25%;
+          background-color: #DACDBC;
+          border: 1px dashed #5C4E41; }
+          #fondoFilosofiaHache .grid #mainSobreNos #sectionFilosofiaHache #divFilosofiaHache #tituloFilosofiaHache {
+            color: #5C4E41;
+            font-size: 80%;
+            height: 100%;
+            text-align: center;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 5%;
+            font-family: "Lato", sans-serif; }
       #fondoFilosofiaHache .grid #mainSobreNos .divCaracteristicas {
         width: 30%;
-        height: 42%;
+        height: 50%;
         background-color: #DACDBC;
         border: 1px dotted #5C4E41;
         opacity: 0.9; }
       #fondoFilosofiaHache .grid #mainSobreNos .parrafoCaracteristicas {
         color: #5C4E41;
         font-weight: bolder;
-        font-size: 50%;
+        font-size: 65%;
         text-align: center;
         margin-left: 10px;
         margin-right: 10px;
@@ -216,23 +217,27 @@
       #fondoFilosofiaHache .grid header .divNav .divUno {
         width: 15%; }
       #fondoFilosofiaHache .grid header .ulUno .botonesMenu {
-        font-size: 70%; }
+        font-size: 90%; }
       #fondoFilosofiaHache .grid #mainSobreNos .sectionTitulo .divTitulo {
-        width: 85%;
+        width: 70%;
         height: 40%; }
         #fondoFilosofiaHache .grid #mainSobreNos .sectionTitulo .divTitulo .tituloMain {
-          font-size: 55%; }
+          width: 100%;
+          font-size: 70%;
+          margin: 0% 0% 0% 0%;
+          padding-top: 4%; }
       #fondoFilosofiaHache .grid #mainSobreNos #sectionSobreNos #divSobreNos {
         height: 120%; }
         #fondoFilosofiaHache .grid #mainSobreNos #sectionSobreNos #divSobreNos .parrafoSobreNos {
-          font-size: 40%; }
-      #fondoFilosofiaHache .grid #mainSobreNos #divFilosofiaHache #tituloFilosofiaHache {
-        font-size: 50%; }
+          font-size: 50%; }
+      #fondoFilosofiaHache .grid #mainSobreNos #sectionFilosofiaHache #divFilosofiaHache #tituloFilosofiaHache {
+        font-size: 70%;
+        margin-top: 2%; }
       #fondoFilosofiaHache .grid #mainSobreNos .divCaracteristicas {
-        width: 25%;
-        height: 50%; }
+        width: 30%;
+        height: 70%; }
         #fondoFilosofiaHache .grid #mainSobreNos .divCaracteristicas .parrafoCaracteristicas {
-          font-size: 40%; }
+          font-size: 60%; }
       #fondoFilosofiaHache .grid .parrafoCopyright {
         font-size: 60%; } }
 
@@ -240,11 +245,11 @@
   #fondoFilosofiaHache {
     height: 1900px; }
     #fondoFilosofiaHache .grid {
-      grid-template-rows: 3% 94% 3%; }
+      grid-template-rows: 3% 95% 2%; }
       #fondoFilosofiaHache .grid header .divNav .divUno {
         width: 12%; }
       #fondoFilosofiaHache .grid header .ulUno .botonesMenu {
-        font-size: 70%; }
+        font-size: 90%; }
       #fondoFilosofiaHache .grid #mainSobreNos .sectionTitulo .divTitulo {
         width: 70%;
         height: 30%;
@@ -254,11 +259,11 @@
         #fondoFilosofiaHache .grid #mainSobreNos .sectionTitulo .divTitulo .tituloMain {
           color: #5C4E41;
           text-align: center;
-          margin-left: 30%;
-          margin-right: 30%;
+          margin-left: 5%;
+          margin-right: 5%;
           font-family: "Lato", sans-serif;
           padding-top: 5%;
-          font-size: 75%; }
+          font-size: 90%; }
       #fondoFilosofiaHache .grid #mainSobreNos #sectionSobreNos #divSobreNos {
         width: 100%;
         height: 80%;
@@ -267,7 +272,7 @@
         opacity: 0.9; }
         #fondoFilosofiaHache .grid #mainSobreNos #sectionSobreNos #divSobreNos .parrafoSobreNos {
           color: #5C4E41;
-          font-size: 65%;
+          font-size: 75%;
           text-align: justify;
           font-family: "Lato", sans-serif;
           margin: 1% 2% 2% 2%; }
@@ -278,7 +283,7 @@
         border: 1px dashed #5C4E41; }
         #fondoFilosofiaHache .grid #mainSobreNos #divFilosofiaHache #tituloFilosofiaHache {
           color: #5C4E41;
-          font-size: 80%;
+          font-size: 85%;
           height: 100%;
           text-align: center;
           margin-left: 10px;
@@ -287,62 +292,65 @@
           font-family: "Lato", sans-serif; }
       #fondoFilosofiaHache .grid #mainSobreNos .divCaracteristicas {
         width: 30%;
-        height: 42%;
+        height: 50%;
         background-color: #DACDBC;
         border: 1px dotted #5C4E41;
         opacity: 0.9; }
       #fondoFilosofiaHache .grid #mainSobreNos .parrafoCaracteristicas {
         color: #5C4E41;
         font-weight: bolder;
-        font-size: 60%;
+        font-size: 75%;
         text-align: center;
         margin-left: 10px;
         margin-right: 10px;
         margin-top: 17%;
         font-family: "Lato", sans-serif; }
       #fondoFilosofiaHache .grid .parrafoCopyright {
-        font-size: 60%; } }
+        font-size: 70%; } }
 
 @media only screen and (min-width: 768px) {
   #fondoFilosofiaHache {
     height: 2100px; }
     #fondoFilosofiaHache .grid {
-      grid-template-rows: 3% 94% 3%; }
+      grid-template-rows: 3% 94.8% 2.2%; }
       #fondoFilosofiaHache .grid header .divNav .divUno {
         width: 10%; }
       #fondoFilosofiaHache .grid header .ulUno .botonesMenu {
-        font-size: 70%; }
+        font-size: 100%; }
       #fondoFilosofiaHache .grid #mainSobreNos .sectionTitulo {
         margin-top: -5%; }
         #fondoFilosofiaHache .grid #mainSobreNos .sectionTitulo .divTitulo {
           width: 65%;
           height: 40%; }
           #fondoFilosofiaHache .grid #mainSobreNos .sectionTitulo .divTitulo .tituloMain {
-            font-size: 100%;
-            padding-top: 7%; }
+            font-size: 120%;
+            padding-top: 6%; }
       #fondoFilosofiaHache .grid #mainSobreNos #sectionSobreNos #divSobreNos {
         height: 100%; }
         #fondoFilosofiaHache .grid #mainSobreNos #sectionSobreNos #divSobreNos .parrafoSobreNos {
-          font-size: 85%; }
+          font-size: 110%; }
       #fondoFilosofiaHache .grid #mainSobreNos #divFilosofiaHache #tituloFilosofiaHache {
-        font-size: 90%; }
+        font-size: 100%;
+        margin-top: 3%; }
       #fondoFilosofiaHache .grid #mainSobreNos .divCaracteristicas {
-        width: 30%;
-        height: 40%; }
+        width: 25%;
+        height: 45%; }
         #fondoFilosofiaHache .grid #mainSobreNos .divCaracteristicas .parrafoCaracteristicas {
-          font-size: 70%; }
-      #fondoFilosofiaHache .grid .parrafoCopyright {
+          font-size: 80%; }
+      #fondoFilosofiaHache .grid footer #divFooterUno .divFooter {
+        width: 10%; }
+      #fondoFilosofiaHache .grid footer .parrafoCopyright {
         font-size: 60%; } }
 
 @media only screen and (min-width: 992px) {
   #fondoFilosofiaHache {
     height: 2300px; }
     #fondoFilosofiaHache .grid {
-      grid-template-rows: 3% 94% 3%; }
+      grid-template-rows: 3% 94.8% 2.2%; }
       #fondoFilosofiaHache .grid header .divNav .divUno {
         width: 8%; }
       #fondoFilosofiaHache .grid header .ulUno .botonesMenu {
-        font-size: 70%; }
+        font-size: 100%; }
       #fondoFilosofiaHache .grid #mainSobreNos .sectionTitulo {
         margin-top: -5%; }
         #fondoFilosofiaHache .grid #mainSobreNos .sectionTitulo .divTitulo {
@@ -362,42 +370,45 @@
         height: 45%; }
         #fondoFilosofiaHache .grid #mainSobreNos .divCaracteristicas .parrafoCaracteristicas {
           font-size: 80%; }
-      #fondoFilosofiaHache .grid .parrafoCopyright {
-        font-size: 60%; } }
+      #fondoFilosofiaHache .grid .divCopyright {
+        height: 20%; }
+        #fondoFilosofiaHache .grid .divCopyright .parrafoCopyright {
+          font-size: 80%; } }
 
 @media only screen and (min-width: 1080px) {
   #fondoFilosofiaHache {
     height: 2500px; }
     #fondoFilosofiaHache .grid {
-      grid-template-rows: 3% 95.5% 2.5%; }
+      grid-template-rows: 3% 94.8% 2.2%; }
       #fondoFilosofiaHache .grid header .divNav .divUno {
         width: 7%; }
       #fondoFilosofiaHache .grid header .ulUno .botonesMenu {
-        font-size: 70%; }
+        font-size: 100%; }
       #fondoFilosofiaHache .grid #mainSobreNos .sectionTitulo {
         margin-top: 10%; }
         #fondoFilosofiaHache .grid #mainSobreNos .sectionTitulo .divTitulo {
           width: 65%;
           height: 40%; }
           #fondoFilosofiaHache .grid #mainSobreNos .sectionTitulo .divTitulo .tituloMain {
-            font-size: 140%;
+            font-size: 150%;
             padding-top: 5%; }
       #fondoFilosofiaHache .grid #mainSobreNos #sectionSobreNos {
         margin-top: -10%; }
         #fondoFilosofiaHache .grid #mainSobreNos #sectionSobreNos #divSobreNos {
           height: 100%; }
           #fondoFilosofiaHache .grid #mainSobreNos #sectionSobreNos #divSobreNos .parrafoSobreNos {
-            font-size: 110%; }
-      #fondoFilosofiaHache .grid #mainSobreNos #divFilosofiaHache {
+            font-size: 125%; }
+      #fondoFilosofiaHache .grid #mainSobreNos #sectionFilosofiaHache #divFilosofiaHache {
         height: 30%;
         width: 40%; }
-        #fondoFilosofiaHache .grid #mainSobreNos #divFilosofiaHache #tituloFilosofiaHache {
-          font-size: 105%;
-          padding-bottom: 5%; }
+        #fondoFilosofiaHache .grid #mainSobreNos #sectionFilosofiaHache #divFilosofiaHache #tituloFilosofiaHache {
+          font-size: 115%;
+          padding-top: 3%; }
       #fondoFilosofiaHache .grid #mainSobreNos .divCaracteristicas {
         width: 30%;
-        height: 52%; }
+        height: 45%; }
         #fondoFilosofiaHache .grid #mainSobreNos .divCaracteristicas .parrafoCaracteristicas {
-          font-size: 90%; }
-      #fondoFilosofiaHache .grid .parrafoCopyright {
-        font-size: 80%; } }
+          font-size: 100%;
+          margin-top: 14%; }
+      #fondoFilosofiaHache .grid .divCopyright .parrafoCopyright {
+        font-size: 100%; } }

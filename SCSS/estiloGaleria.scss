@@ -4,7 +4,7 @@
 * { margin: 0;
     padding: 0;}
 
-// SHOP // 
+// GALERIA // 
 #fondoFilosofiaHache{
     @extend .bodyGeneral;
 
@@ -69,67 +69,63 @@
                     
 
                     #sectionGaleria{
-                        width: 80%;
+                        width: 100%;
                         display: grid;
-                        grid-template-columns: 3fr 3fr 3fr;
-                        grid-template-rows: 3fr 3fr 3fr;
-                        grid-template-areas: "foto1 foto2 foto3"
-                                                 "foto4 foto5 foto6"
-                                                 "foto7 foto8 foto9";
+                        grid-template-columns: 50% 50%;
+                        grid-template-rows: 25% 25% 25% 25%;
+                        grid-template-areas: "foto1 foto2"
+                                                 " foto3 foto4"
+                                                 " foto5 foto6"
+                                                 "foto7 foto8" ;
 
                                  #divGaleriaUno{
                                      grid-area: foto1;
                                      width: 100%;
-                                     border: 1px solid $colorFondo;
+                                     
                                      }
                                                 
                                     #divGaleriaDos{
                                     grid-area: foto2; 
                                     width: 100%;
-                                    border: 1px solid $colorFondo;
+                                    
                                                     }
                                                 
                                     #divGaleriaTres{
                                     grid-area: foto3;  
                                     width: 100%;
-                                    border: 1px solid $colorFondo;
+                                    
                                                     }
                                                 
                                     #divGaleriaCuatro{
                                    grid-area: foto4;  
                                     width: 100%;
-                                    border: 1px solid $colorFondo; 
+                                    
                                                     }
                                                 
                                     #divGaleriaCinco{
                                     grid-area: foto5;  
                                     width: 100%;
-                                    border: 1px solid $colorFondo; 
+                                    
                                                     }
                                                 
                                     #divGaleriaSeis{
                                     grid-area: foto6; 
                                     width: 100%;
-                                    border: 1px solid $colorFondo;
+                                   
                                                     }
                                                 
                                                 #divGaleriaSiete{
                                                     grid-area: foto7;   
                                                     width: 100%;
-                                                    border: 1px solid $colorFondo;
+                                                    
                                                     }
                                                 
                                                 #divGaleriaOcho{
                                                     grid-area: foto8;
                                                     width: 100%;
-                                                    border: 1px solid $colorFondo;
+                                                   
                                                     }
                                                 
-                                                #divGaleriaNueve{
-                                                    grid-area: foto9;  
-                                                    width: 100%;
-                                                    border: 1px solid $colorFondo;
-                                                    }
                                                 
                                                 .imagenGaleria{
                                                     width: 100%;
@@ -210,10 +206,10 @@
 @media only screen and (max-width: 600px)
 {
     #fondoFilosofiaHache{
-        height: 3800px;
+        height: 2300px;
         
         .grid{ 
-            grid-template-rows: 1.5% 97.7% 0.8%;
+            grid-template-rows: 1.5% 97.2% 1.3%;
             
             header{
 
@@ -230,8 +226,13 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 90%;
                     }
+
+                    .botonesMenu:hover
+                        {
+                        transform: scale(1.2,1.2);
+                        transition: 0.5s;}
                 }
             }
             
@@ -245,22 +246,22 @@
                 
 
                 #sectionGaleria{
-                    display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-content: center;
-                        width: 45%;
-                        row-gap: 2%;
+                    width: 85%;
+                    column-gap: 5%;
+                    margin-left: 5%;
+                    margin-right: 10%;
+                    
+                     
                         
 
                              #divGaleriaUno{
                                  width: 100%;
-                                 margin-bottom: 10%;
+                                 margin-bottom: 60%;
                                  }
                                             
                                 #divGaleriaDos{
                                 width: 100%;
-                                margin-bottom: 10%;
+                                margin-bottom: 60%;
                                                 }
                                             
                                 #divGaleriaTres{
@@ -291,10 +292,6 @@
                                  width: 100%;
                                  margin-bottom: 10%;             
                                                 }
-                                 #divGaleriaNueve{
-                                 width: 100%;
-                                 margin-bottom: 10%;             
-                                                }
                                             
                                             .imagenGaleria{
                                                 width: 100%;
@@ -305,6 +302,8 @@
                 .sectionCarousel{
                         width: 70%;
                         border: 5px solid $colorFondo;
+                        margin-top: 5%;
+                        margin-bottom: -15%;
                         }
 
                     }  
@@ -314,7 +313,7 @@
     }
         
                 .parrafoCopyright {
-                font-size: 60%;
+                font-size: 65%;
                 }
         
     
@@ -326,7 +325,7 @@
 @media only screen and (max-width: 400px)
 {
     #fondoFilosofiaHache{
-        height: 2600px;
+        height: 2400px;
         
         .grid{ 
             grid-template-rows: 1% 98% 1%;
@@ -346,7 +345,7 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 90%;
                     }
                 }
             }
@@ -407,10 +406,6 @@
                                  width: 100%;
                                  margin-bottom: 10%;             
                                                 }
-                                 #divGaleriaNueve{
-                                 width: 100%;
-                                 margin-bottom: 10%;             
-                                                }
                                             
                                             .imagenGaleria{
                                                 width: 100%;
@@ -422,6 +417,7 @@
                         width: 70%;
                         border: 5px solid $colorFondo;
                         margin-top: 20%;
+                        margin-bottom: -10%;
                         }
 
                     }  
@@ -441,10 +437,10 @@
 @media only screen and (min-width: 600px)
 {
     #fondoFilosofiaHache{
-        height: 4800px;
+        height: 2600px;
         
         .grid{ 
-            grid-template-rows: 1.3% 98% 0.7%;
+            grid-template-rows: 1.3% 97.4% 1.3%;
             
             header{
 
@@ -461,7 +457,7 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 100%;
                     }
                 }
             }
@@ -476,12 +472,17 @@
                 
 
                 #sectionGaleria{
-                    display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-content: center;
-                        width: 40%;
-                        row-gap: 2%;
+                    width: 80%;
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                    grid-template-rows: 25% 25% 25% 25%;
+                    column-gap: 5%;
+                    margin-left: 5%;
+                    margin-right: 10%;
+                    grid-template-areas: "foto1 foto2"
+                                             " foto3 foto4"
+                                             " foto5 foto6"
+                                             "foto7 foto8" ;
                         
 
                              #divGaleriaUno{
@@ -522,10 +523,6 @@
                                  width: 100%;
                                  margin-bottom: 10%;             
                                                 }
-                                 #divGaleriaNueve{
-                                 width: 100%;
-                                 margin-bottom: 10%;             
-                                                }
                                             
                                             .imagenGaleria{
                                                 width: 100%;
@@ -536,14 +533,15 @@
                 .sectionCarousel{
                         width: 65%;
                         border: 5px solid $colorFondo;
-                        margin-top: 20%;
+                        margin-top: 5%;
+                        margin-bottom: -20%;
                         }
 
                     }  
     
         
                 .parrafoCopyright {
-                font-size: 60%;
+                font-size: 70%;
                 }
         
     
@@ -557,10 +555,10 @@
 @media only screen and (min-width: 768px)
 {
     #fondoFilosofiaHache{
-        height: 5200px;
+        height: 3000px;
         
         .grid{ 
-            grid-template-rows: 1.5% 97.5% 1%;
+            grid-template-rows: 1.5% 97% 1.5%;
             
             header{
 
@@ -577,7 +575,7 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 100%;
                     }
                 }
             }
@@ -586,20 +584,24 @@
                 
 
                 #sectionGaleria{
-                        width: 35%;
-                        row-gap: 2%;
+                        width: 70%;
+                        margin-right: 10%;
+                    
+                        
                         
                     }
                 
                 .sectionCarousel{
-                        width: 52%;
+                        width: 50%;
+                        margin-top: -10%;
+                        margin-bottom: -40%;
                         }
 
                     }  
         
         
                 .parrafoCopyright {
-                font-size: 70%;
+                font-size: 80%;
                 }
         
     
@@ -614,10 +616,10 @@
 @media only screen and (min-width: 992px)
 {
     #fondoFilosofiaHache{
-        height: 5600px;
+        height: 3200px;
         
         .grid{ 
-            grid-template-rows: 1.5% 97.5% 1%;
+            grid-template-rows: 1.5% 97% 1.5%;
             
             header{
 
@@ -634,7 +636,7 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 100%;
                     }
                 }
             }
@@ -643,20 +645,20 @@
                 
 
                 #sectionGaleria{
-                        width: 35%;
+                        width: 70%;
                         row-gap: 2%;
                         
                     }
                 
                 .sectionCarousel{
-                        width: 52%;
+                        width: 50%;
                         }
 
                     }  
         
         
                 .parrafoCopyright {
-                font-size: 70%;
+                font-size: 80%;
                 }
         
     
@@ -670,10 +672,10 @@
 @media only screen and (min-width: 1080px)
 {
     #fondoFilosofiaHache{
-        height: 5500px;
+        height: 3200px;
         
         .grid{ 
-            grid-template-rows: 1.5% 97.5% 1%;
+            grid-template-rows: 1.5% 96.8% 1.7%;
             
             header{
 
@@ -690,7 +692,7 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 100%;
                     }
                 }
             }
@@ -699,20 +701,20 @@
                 
 
                 #sectionGaleria{
-                        width: 25%;
+                        width: 60%;
                         row-gap: 2%;
                         
                     }
                 
                 .sectionCarousel{
-                        width: 40%;
+                        width: 42%;
                         }
 
                     }  
         
         
                 .parrafoCopyright {
-                font-size: 80%;
+                font-size: 90%;
                 }
         
     

@@ -250,10 +250,10 @@
 @media only screen and (max-width: 600px)
 {
     #fondoFilosofiaHache{
-        height: 1800px;
+        height: 4200px;
         
         .grid{ 
-            grid-template-rows: 3% 95% 2%;
+            grid-template-rows: 1.5% 97.8% 0.7%;
             
             header{
 
@@ -270,15 +270,15 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 90%;
                     }
                 }
             }
             
             #mainProductos{
                     #sectionProdTitu {
-                            margin-bottom: -50%;
-                            margin-top: -50%;
+                            margin-top: -10%;
+                            margin-bottom: -60%;
                         
                         
                             #divProdTitu {
@@ -297,29 +297,27 @@
                                         font-family: $fuente;
                                         padding-top: 4%;
                                         padding-bottom: 3%;
-                                        font-size: 70%;
+                                        font-size: 85%;
                                        
                                     }
                                  }
                         }
 
                         #sectionProductos{
-                            display: grid;
-                            grid-template-columns: 3fr 3fr 3fr;
-                            grid-template-rows:  28% 4% 28% 4% 28% 4%;
-                            grid-template-areas: "img1 img2 img3"
-                                                 "des1 des2 des3"
-                                                 "img4 img5 img6"
-                                                 "des4 des5 des6"
-                                                 "img7 img8 img9"
-                                                 "des7 des8 des9";
-                            row-gap: 2.5%;
-                            column-gap: 1%;
+                            display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-content: center;
+                        width: 60%;
+                        height: 20%;
+                        row-gap: 2%;
+                        margin-left: 15%;
+                        margin-top: 250%;
                    
                    
                             #divImgUno {
                                 grid-area: img1;
-                                width: 80%;
+                                width: 70%;
                                 justify-self: center;
                           
                             
@@ -327,7 +325,7 @@
                             
                             #divImgDos {
                                 grid-area: img2;
-                                width: 80%;
+                                width: 70%;
                                 justify-self: center;
                            
                             
@@ -335,7 +333,7 @@
                             
                             #divImgTres {
                                 grid-area: img3;
-                                width: 80%;
+                                width: 70%;
                                 justify-self: center;
                                
                             }
@@ -343,7 +341,7 @@
                             #divProdUno{
                                 grid-area: des1;
                                 justify-self: center;
-                                width: 80%;
+                                width: 70%;
                                 height: 140%;   
                                 background-color: #DACDBC;
                                 border: 4px solid #5C4E41;
@@ -359,7 +357,7 @@
                             #divProdDos{
                                 grid-area: des2;
                                 justify-self: center;
-                                width: 80%;
+                                width: 70%;
                                 height: 140%;   
                                 background-color: #DACDBC;
                                 border: 4px solid #5C4E41;
@@ -375,7 +373,7 @@
                             #divProdTres{
                                 grid-area: des3;
                                 justify-self: center;
-                                width: 80%;
+                                width: 70%;
                                 height: 140%;   
                                 background-color: #DACDBC;
                                 border: 4px solid #5C4E41;
@@ -391,21 +389,21 @@
                             
                             #divImgCuatro {
                                 grid-area: img4;
-                                width: 80%;
+                                width: 70%;
                                 justify-self: center;
                                 
                             }
                             
                             #divImgCinco {
                                 grid-area: img5;
-                                width: 80%;
+                                width: 70%;
                                 justify-self: center;
                                
                             }
                             
                             #divImgSeis {
                                 grid-area: img6;
-                                width: 80%;
+                                width: 70%;
                                 justify-self: center;
                                 
                             }
@@ -414,7 +412,7 @@
                             #divProdCuatro{
                                 grid-area: des4;
                                 justify-self: center;
-                                width: 80%;
+                                width: 70%;
                                 height: 140%;   
                                 background-color: #DACDBC;
                                 border: 4px solid #5C4E41;
@@ -430,7 +428,7 @@
                             #divProdCinco{
                                 grid-area: des5;
                                 justify-self: center;
-                                width: 80%;
+                                width: 70%;
                                 height: 140%;   
                                 background-color: #DACDBC;
                                 border: 4px solid #5C4E41;
@@ -446,7 +444,7 @@
                             #divProdSeis{
                                 grid-area: des6;
                                 justify-self: center;
-                                width: 80%;
+                                width: 70%;
                                 height: 140%;   
                                 background-color: #DACDBC;
                                 border: 4px solid #5C4E41;
@@ -461,21 +459,21 @@
                             
                             #divImgSiete {
                                 grid-area: img7;
-                                width: 80%;
+                                width: 70%;
                                 justify-self: center;
                                
                             }
                             
                             #divImgOcho {
                                 grid-area: img8;
-                                width: 80%;
+                                width: 70%;
                                 justify-self: center;
                                
                             }
                             
                             #divImgNueve {
                                 grid-area: img9;
-                                width: 80%;
+                                width: 70%;
                                 justify-self: center;
                                
                             }
@@ -483,7 +481,7 @@
                             #divProdSiete{
                                 grid-area: des7;
                                 justify-self: center;
-                                width: 80%;
+                                width: 70%;
                                 height: 140%;   
                                 background-color: #DACDBC;
                                 border: 4px solid #5C4E41;
@@ -499,7 +497,7 @@
                             #divProdOcho{
                                 grid-area: des8;
                                 justify-self: center;
-                                width: 80%;
+                                width: 70%;
                                 height: 140%;   
                                 background-color: #DACDBC;
                                 border: 4px solid #5C4E41;
@@ -515,7 +513,7 @@
                             #divProdNueve{
                                 grid-area: des9;
                                 justify-self: center;
-                                width: 80%;
+                                width: 70%;
                                 height: 140%;   
                                 background-color: #DACDBC;
                                 border: 4px solid #5C4E41;
@@ -531,7 +529,7 @@
                             .desProd
                             {   
                         color:$colorBordes;
-                        font-size: 40%;
+                        font-size: 55%;
                         text-align: center;
                         font-family: $fuente;
                         margin: 0;
@@ -551,8 +549,8 @@
                     align-items: flex-start;
                     justify-content: center;
                     width: 80%;
-                    margin-top: -20%;
-                    margin-bottom: -60%;
+                    margin-bottom: -20%;
+                    margin-top: 200%;
                 
                     #divPago{
                         width: 100%;
@@ -599,7 +597,7 @@
                     align-items: flex-start;
                     justify-content: center;
                     width: 80%;
-                    margin-bottom: -40%;
+                    margin-bottom: 0%;
                 
                     #divEnvio{
                         width: 100%;
@@ -679,7 +677,7 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 90%;
                     }
                 }
             }
@@ -687,8 +685,8 @@
             #mainProductos{
                 justify-content: space-around;
                 #sectionProdTitu {
-                    margin-top: -100%;
-                    margin-bottom: 0%;
+                    margin-top: 0%;
+                    margin-bottom: -70%;
                        
                     
                         #divProdTitu {
@@ -697,7 +695,7 @@
                                 
                                 
                                 .tituloMain{
-                                    font-size: 60%;
+                                    font-size: 70%;
                                    
                                 }
                              }
@@ -711,14 +709,14 @@
                         width: 60%;
                         height: 20%;
                         row-gap: 2%;
-                        margin-left: 10%;
+                        margin-left: 15%;
                
                
                         
                         .desProd
                         {   
                     color:$colorBordes;
-                    font-size: 45%;
+                    font-size: 50%;
                     text-align: center;
                     font-family: $fuente;
                     margin: 0;
@@ -738,7 +736,7 @@
                     align-items: flex-start;
                     justify-content: center;
                     width: 80%;
-                    margin-bottom: -200%;
+                    margin-bottom: 0%;
                     
                 
                     #divPago{
@@ -786,8 +784,8 @@
                     align-items: flex-start;
                     justify-content: center;
                     width: 80%;
-                    margin-bottom: -100%;
-                    margin-top: -20%;
+                    margin-bottom: 30%;
+                    margin-top: -10%;
                 
                     #divEnvio{
                         width: 100%;
@@ -828,24 +826,7 @@
             }
         
             }
-                        #divFilosofiaHache{ 
-                                width: 50%;
-                                height: 25%;
-                                background-color: $colorFondo;
-                                border: 1px dashed $colorBordes;
-                    
-
-                                #tituloFilosofiaHache{
-                                color:$colorBordes;
-                                font-size: 70%;
-                                height: 100%;
-                                text-align: center;
-                                margin-left: 10px;
-                                margin-right: 10px;
-                                margin-top: 5%;
-                                font-family: $fuente;
-                                }                    
-                }
+                      
         
                 .parrafoCopyright {
                 font-size: 60%;
@@ -864,10 +845,10 @@
 @media only screen and (min-width: 600px)
 {
     #fondoFilosofiaHache{
-        height: 2800px;
+        height: 1800px;
         
         .grid{ 
-            grid-template-rows: 2.5% 96% 1.5%;
+            grid-template-rows: 2.5% 95.6% 1.9%;
             
             header{
 
@@ -884,15 +865,15 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 100%;
                     }
                 }
             }
             
             #mainProductos{
                     #sectionProdTitu {
-                            margin-bottom: -70%;
-                            margin-top: -90%;
+                            margin-bottom: -40%;
+                            margin-top: -40%;
                         
                         
                             #divProdTitu {
@@ -911,7 +892,7 @@
                                         font-family: $fuente;
                                         padding-top: 4%;
                                         padding-bottom: 3%;
-                                        font-size: 80%;
+                                        font-size: 90%;
                                        
                                     }
                                  }
@@ -1164,8 +1145,8 @@
                     align-items: flex-start;
                     justify-content: center;
                     width: 80%;
-                    margin-top: -20%;
-                    margin-bottom: -90%;
+                    margin-top: -30%;
+                    margin-bottom: -50%;
                 
                     #divPago{
                         width: 100%;
@@ -1257,7 +1238,7 @@
     }
         
                 .parrafoCopyright {
-                font-size: 60%;
+                font-size: 70%;
                 }
         
     
@@ -1270,10 +1251,10 @@
 @media only screen and (min-width: 768px)
 {
     #fondoFilosofiaHache{
-        height: 2800px;
+        height: 2200px;
         
         .grid{ 
-            grid-template-rows: 3% 95.5% 1.5%;
+            grid-template-rows: 3% 95% 2%;
             
             header{
 
@@ -1290,15 +1271,15 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 100%;
                     }
                 }
             }
             
             #mainProductos{
                 #sectionProdTitu {
-                        margin-bottom: -80%;
-                        margin-top: -70%;
+                        margin-bottom: -40%;
+                        margin-top: -40%;
                     
                     
                         #divProdTitu {
@@ -1307,7 +1288,7 @@
                                 
                                 
                                 .tituloMain{
-                                    font-size: 100%;
+                                    font-size: 120%;
                                    
                                 }
                              }
@@ -1345,8 +1326,8 @@
                         }
              
                 #sectionPago{
-                                 margin-top: -50%;
-                                 margin-bottom:-50%;
+                                 margin-top: -20%;
+                                 margin-bottom:-15%;
                                  #divPago{
                                     ul{
     
@@ -1364,7 +1345,7 @@
         
         
                 .parrafoCopyright {
-                font-size: 70%;
+                font-size: 75%;
                 }
         
     
@@ -1379,10 +1360,10 @@
 @media only screen and (min-width: 992px)
 {
     #fondoFilosofiaHache{
-        height: 2800px;
+        height: 2300px;
         
         .grid{ 
-            grid-template-rows: 3% 95% 2%;
+            grid-template-rows: 3% 94.9% 2.1%;
             
             header{
 
@@ -1399,15 +1380,15 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 100%;
                     }
                 }
             }
             
             #mainProductos{
                 #sectionProdTitu {
-                        margin-bottom: -80%;
-                        margin-top: -70%;
+                        margin-bottom: -40%;
+                        margin-top: -40%;
                     
                     
                         #divProdTitu {
@@ -1456,8 +1437,8 @@
                         }
              
                 #sectionPago{
-                                 margin-top: -50%;
-                                 margin-bottom:-50%;
+                                 margin-top: -30%;
+                                 margin-bottom:-15%;
                                  #divPago{
                                     ul{
     
@@ -1475,7 +1456,7 @@
         
         
                 .parrafoCopyright {
-                font-size: 70%;
+                font-size: 80%;
                 }
         
     
@@ -1490,7 +1471,7 @@
 @media only screen and (min-width: 1080px)
 {
     #fondoFilosofiaHache{
-        height: 2800px;
+        height: 2700px;
         
         .grid{ 
             grid-template-rows: 3% 95% 2%;
@@ -1510,15 +1491,15 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 100%;
                     }
                 }
             }
             
             #mainProductos{
                 #sectionProdTitu {
-                        margin-bottom: -50%;
-                        margin-top: -50%;
+                        margin-bottom: -35%;
+                        margin-top: -35%;
                     
                     
                         #divProdTitu {
@@ -1527,7 +1508,7 @@
                                 
                                 
                                 .tituloMain{
-                                    font-size: 140%;
+                                    font-size: 150%;
                                    
                                 }
                              }
@@ -1568,7 +1549,7 @@
              
                 #sectionPago{
                                  margin-top: -20%;
-                                 margin-bottom:-20%;
+                                 margin-bottom:-10%;
                                  #divPago{
                                     ul{
     
@@ -1586,7 +1567,7 @@
         
         
                 .parrafoCopyright {
-                font-size: 80%;
+                font-size: 90%;
                 }
         
     

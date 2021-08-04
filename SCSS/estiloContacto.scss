@@ -454,7 +454,7 @@
 @media only screen and (max-width: 600px)
 {
     #fondoFilosofiaHache{
-        @include pantallaDos ($max600);
+        height: 1400px;
         
         .grid{ 
             grid-template-rows: 2% 96% 2%;
@@ -474,7 +474,7 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 90%;
                     }
                 }
             }
@@ -489,18 +489,19 @@
         
                 #sectionContacto{
                     width: 90%;
-                    height: 60%;
+                    height: 70%;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-around;
                     align-items: center;
 
                     #divMainForm{
-                        width: 80%;
+                        width: 90%;
                         border-radius: 2px;
+                        height: 50%;
                         background-image: linear-gradient(to bottom,#DACDBC,#a79585);
-                        margin-bottom: 60%;
-                        margin-top: -20%;
+                        margin-bottom: 30%;
+                        margin-top: -30%;
                         opacity: 0.9;
 
                         form { 
@@ -525,7 +526,7 @@
                                     .parrafoFormulario{
                                         color: $colorBordes;
                                         font-family: $fuente;
-                                        font-size: 50%;
+                                        font-size: 55%;
                                         font-weight: bold;
                                         }
                                 }
@@ -724,7 +725,7 @@
 
             #divMainRedes{
                 width: 60%;
-                height: 100%;
+                height: 40%;
                 border: 2px solid #5C4E41;
                 background-image: linear-gradient(to bottom,#DACDBC,#a79585);
                 display: flex;
@@ -782,7 +783,8 @@
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
-                margin-top: 5%;
+                margin-top: 10%;
+                margin-bottom: 0%;
                 opacity: 0.85;
 
                 .divTitulo {
@@ -799,8 +801,8 @@
                         margin-left: 30%;
                         margin-right: 30%;
                         font-family: $fuente;
-                        padding-top: 7%;
-                        font-size: 70%;
+                        padding-top: 6%;
+                        font-size: 85%;
                     }
                  }
 
@@ -833,7 +835,7 @@
         @include pantallaUno ($max400);
         
         .grid{ 
-            grid-template-rows: 3% 94% 3%;
+            grid-template-rows: 3% 94.8% 2.2%;
             
             header{
 
@@ -850,7 +852,7 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 90%;
                     }
                 }
             }
@@ -860,10 +862,12 @@
             
         
                 #sectionContacto{
-                
+                    height: 70%;
 
                     #divMainForm{
                         opacity: 0.9;
+                        margin-bottom: 60%;
+                        margin-top: -20%;
 
                         form { 
                            
@@ -879,7 +883,7 @@
                             
                         
                                     .parrafoFormulario{
-                                        font-size: 40%;
+                                        font-size: 50%;
                                         }
                                 }
                         ol{ 
@@ -979,7 +983,7 @@
                                }
                             
                                #flexRadioDefault1{
-                                width: 6%;
+                                width: 7%;
                                 margin-top: 0;
                             }
                             }
@@ -1008,7 +1012,8 @@
 
             #divMainRedes{
               
-
+                margin-bottom: 10%;
+                margin-top: -40%;
     
             
                 #spanInstagram{
@@ -1042,7 +1047,8 @@
 
 
             .sectionTitulo{
-            
+                margin-top: 5%;
+                margin-bottom: 0;
 
                 .divTitulo {
                     width: 85%;
@@ -1052,9 +1058,8 @@
                     
                     
                     .tituloMain{
-                        font-size: 55%;
-                        height: 100%;
-                        padding-top: 5%;
+                        font-size: 70%;
+                        padding-top: 4%;
                     }
                  }
 
@@ -1085,7 +1090,7 @@
         @include pantallaTres ($min600);
         
         .grid{ 
-            grid-template-rows: 3% 94% 3%;
+            grid-template-rows: 3% 95% 2%;
             
             header{
 
@@ -1102,7 +1107,7 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 100%;
                     }
                 }
             }
@@ -1121,6 +1126,7 @@
                         background-image: linear-gradient(to bottom,#DACDBC,#a79585);
                         margin-top: -20%;
                         opacity: 0.9;
+                        margin-bottom: 10%;
 
                        
 
@@ -1151,11 +1157,11 @@
                                 .labelForm
                                 {
                             
-                                    font-size: 12px;
+                                    font-size: 13px;
                                }
 
                                .inputEfecto {
-                                font-size: 12px;
+                                font-size: 13px;
                                     }
                            
     
@@ -1168,783 +1174,6 @@
                                 {
                                     color: #352a20;
                                     font-family: $fuente;
-                                    font-size: 12px;
-                               }
-                            
-                               .inputEfecto {
-                                font-size: 12px;
-                                    }
-            
-                            }
-                            
-                            #liEmail{
-                
-
-                                .labelForm
-                                {
-                                    font-size: 12px;
-                               }
-                            
-                               .inputEfecto {
-                                font-size: 12px;
-                                    }
-                           
-                            
-                            }
-                            
-                            #liPublicidad {
-                               
-
-                                .labelForm
-                                {
-                                
-                                    font-size: 12px;
-                                   
-                               }
-                            
-                               select{
-                            
-                                font-size: 70%;
-                                }
-                            }
-                            
-                            .liComentarios {
-                             width: 100%;
-                                
-                               
-                                
-
-                                .labelForm
-                                {
-                    
-                                    font-size: 12px;
-                               }
-                            
-                               #floatingTextarea
-                               {
-                                   width: 100%;
-                                   height: 160%;
-                                   font-size: 12px;
-                               }
-                            }
-                            
-                            #liTerminos{
-                                padding-top: 5%;
-                                padding-bottom: -5%;
-                                   
-                                .labelForm
-                                {
-                                   
-                                    font-size: 12px;
-                               }
-                            
-                               #flexRadioDefault1{
-                                width: 6%;
-                                margin-top: 0;
-                            }
-                            }
-                            
-                            
-                            #liForm{
-                            
-
-                                .botonForm{
-                                
-                                    font-size: 80%;
-                                }
-                                
-                              
-                            
-                            }
-                        
-                        }
-
-                    }
-                }
-
-
-
-            }
-
-            #divMainRedes{
-                width: 60%;
-                height: 40%;
-                opacity: 0.85;
-                
-
-    
-            
-                #spanInstagram{
-                    width: 60%;
-
-                            img{
-                                width: 100%;
-                            }
-                }
-                
-
-
-                #spanLinkIg{
-                     
-
-                    #botonHache{
-
-                        font-size: 12px;
-                        text-align: center;
-            
-                    }
-                    
-                  
-                }
-            }
-        }
-    
-        
-                        
-                        
-                    
-
-
-            .sectionTitulo{
-            
-
-                .divTitulo {
-                    width: 70%;
-                    height: 30%;
-                   
-                   
-                    
-                    
-                    .tituloMain{
-                        font-size: 75%;
-                        height: 100%;
-                        padding-top: 5%;
-                    }
-                 }
-
-            }
-
-               
-                   
-                    
-                }
-        
-        
-                .parrafoCopyright {
-                font-size: 60%;
-                }
-        
-    
-            
-        }
-}
-}
-
-
-
-// DESDE 768PX //
-
-@media only screen and (min-width: 768px)
-{
-    #fondoFilosofiaHache{
-        @include pantallaCuatro ($min768);
-        
-        .grid{ 
-            grid-template-rows: 3% 94% 3%;
-            
-            header{
-
-                .divNav{
-
-                
-
-                    .divUno{
-                    width: 10%;  
-                    }
-
-                    
-                }
-
-                .ulUno
-                { .botonesMenu{
-                    font-size: 70%;
-                    }
-                }
-            }
-            
-            #mainContacto{
-               
-            
-        
-                #sectionContacto{
-                        height: 70%;
-
-                    #divMainForm{
-                        width: 65%;
-                        height: 40%;
-                        margin-top: -20%;
-
-                       
-
-                        form { 
-                           
-                        
-                        
-                        fieldset{
-                           
-
-                            legend{
-                               margin: 0;
-                               width: 100%;
-                                
-                                
-                            
-                        
-                                    .parrafoFormulario{
-                                        font-size: 60%;
-                                        text-align: center;
-                                        }
-                                }
-                        ol{ 
-                           
-                        
-                            #liNombre{
-
-                                .labelForm
-                                {
-                            
-                                    font-size: 13px;
-                               }
-
-                               .inputEfecto {
-                                font-size: 13px;
-                                    }
-                           
-    
-                            
-                            }
-                            
-                            #liTelef{
-
-                                .labelForm
-                                {
-                                   
-                                    font-size: 13px;
-                               }
-                            
-                               .inputEfecto {
-                                font-size: 13px;
-                                    }
-            
-                            }
-                            
-                            #liEmail{
-                
-
-                                .labelForm
-                                {
-                                    font-size: 13px;
-                               }
-                            
-                               .inputEfecto {
-                                font-size: 13px;
-                                    }
-                           
-                            
-                            }
-                            
-                            #liPublicidad {
-                               
-
-                                .labelForm
-                                {
-                                
-                                    font-size: 13px;
-                                   
-                               }
-                            
-                               select{
-                            
-                                font-size: 70%;
-                                }
-                            }
-                            
-                            .liComentarios {
-                             width: 100%;
-                                
-                               
-                                
-
-                                .labelForm
-                                {
-                    
-                                    font-size: 13px;
-                               }
-                            
-                               #floatingTextarea
-                               {
-                                   width: 100%;
-                                   height: 160%;
-                                   font-size: 12px;
-                               }
-                            }
-                            
-                            #liTerminos{
-                                padding-top: 5%;
-                                padding-bottom: -5%;
-                                   
-                                .labelForm
-                                {
-                                   
-                                    font-size: 13px;
-                               }
-                            
-                               #flexRadioDefault1{
-                                width: 6%;
-                                margin-top: 0;
-                            }
-                            }
-                            
-                            
-                            #liForm{
-                            
-
-                                .botonForm{
-                                
-                                    font-size: 85%;
-                                }
-                                
-                              
-                            
-                            }
-                        
-                        }
-
-                    }
-                }
-
-
-
-            }
-
-            #divMainRedes{
-                width: 50%;
-                height: 35%;
-                
-
-    
-            
-                #spanInstagram{
-                    width: 50%;
-
-                            img{
-                                width: 100%;
-                            }
-                }
-                
-
-
-                #spanLinkIg{
-                    
-
-                    #botonHache{
-
-                        font-size: 14px;
-                        text-align: center;
-            
-                    }
-                    
-                  
-                }
-            }
-        }
-    
-        
-                        
-                        
-                    
-
-
-            .sectionTitulo{
-            
-
-                .divTitulo {
-                    width: 65%;
-                    height: 40%;
-                   
-                   
-                    
-                    
-                    .tituloMain{
-                        font-size: 100%;
-                        height: 100%;
-                        padding-top: 5%;
-                    }
-                 }
-
-            }
-
-               
-                   
-                    
-                }
-        
-        
-                .parrafoCopyright {
-                font-size: 60%;
-                }
-        
-    
-            
-        }
-}
-}
-
-// DESDE 992PX //
-
-@media only screen and (min-width: 992px)
-{
-    #fondoFilosofiaHache{
-        @include pantallaCinco ($min992);
-        
-        .grid{ 
-            grid-template-rows: 3% 94% 3%;
-            
-            header{
-
-                .divNav{
-
-                
-
-                    .divUno{
-                    width: 8%;  
-                    }
-
-                    
-                }
-
-                .ulUno
-                { .botonesMenu{
-                    font-size: 70%;
-                    }
-                }
-            }
-            
-            #mainContacto{
-               
-            
-        
-                #sectionContacto{
-                        height: 70%;
-
-                    #divMainForm{
-                        width: 60%;
-                        height: 35%;
-                        margin-top: -20%;
-
-                       
-
-                        form { 
-                           
-                        
-                        
-                        fieldset{
-                           
-
-                            legend{
-                               margin: 0;
-                               width: 100%;
-                                
-                                
-                            
-                        
-                                    .parrafoFormulario{
-                                        font-size: 60%;
-                                        text-align: center;
-                                        }
-                                }
-                        ol{ 
-                           
-                        
-                            #liNombre{
-
-                                .labelForm
-                                {
-                            
-                                    font-size: 13px;
-                               }
-
-                               .inputEfecto {
-                                font-size: 13px;
-                                    }
-                           
-    
-                            
-                            }
-                            
-                            #liTelef{
-
-                                .labelForm
-                                {
-                                   
-                                    font-size: 13px;
-                               }
-                            
-                               .inputEfecto {
-                                font-size: 13px;
-                                    }
-            
-                            }
-                            
-                            #liEmail{
-                
-
-                                .labelForm
-                                {
-                                    font-size: 13px;
-                               }
-                            
-                               .inputEfecto {
-                                font-size: 13px;
-                                    }
-                           
-                            
-                            }
-                            
-                            #liPublicidad {
-                               
-
-                                .labelForm
-                                {
-                                
-                                    font-size: 13px;
-                                   
-                               }
-                            
-                               select{
-                            
-                                font-size: 70%;
-                                }
-                            }
-                            
-                            .liComentarios {
-                             width: 100%;
-                                
-                               
-                                
-
-                                .labelForm
-                                {
-                    
-                                    font-size: 13px;
-                               }
-                            
-                               #floatingTextarea
-                               {
-                                   width: 100%;
-                                   height: 160%;
-                                   font-size: 12px;
-                               }
-                            }
-                            
-                            #liTerminos{
-                                padding-top: 5%;
-                                padding-bottom: -5%;
-                                   
-                                .labelForm
-                                {
-                                   
-                                    font-size: 13px;
-                               }
-                            
-                               #flexRadioDefault1{
-                                width: 5%;
-                                margin-top: 0;
-                            }
-                            }
-                            
-                            
-                            #liForm{
-                            
-
-                                .botonForm{
-                                
-                                    font-size: 85%;
-                                }
-                                
-                              
-                            
-                            }
-                        
-                        }
-
-                    }
-                }
-
-
-
-            }
-
-            #divMainRedes{
-                width: 50%;
-                height: 35%;
-                
-
-    
-            
-                #spanInstagram{
-                    width: 50%;
-
-                            img{
-                                width: 100%;
-                            }
-                }
-                
-
-
-                #spanLinkIg{
-                    
-
-                    #botonHache{
-
-                        font-size: 14px;
-                        text-align: center;
-            
-                    }
-                    
-                  
-                }
-            }
-        }
-    
-        
-                        
-                        
-                    
-
-
-            .sectionTitulo{
-            
-
-                .divTitulo {
-                    width: 65%;
-                    height: 40%;
-                   
-                   
-                    
-                    
-                    .tituloMain{
-                        font-size: 110%;
-                        height: 100%;
-                        padding-top: 5%;
-                    }
-                 }
-
-            }
-
-               
-                   
-                    
-                }
-        
-                .parrafoCopyright {
-                font-size: 60%;
-                }
-        
-    
-            
-        }
-}
-}
-
-
-// DESDE 1080PX //
-
-@media only screen and (min-width: 1080px)
-{
-    #fondoFilosofiaHache{
-        @include pantallaSeis ($min1080);
-        
-        .grid{ 
-            grid-template-rows: 3% 94% 3%;
-            
-            header{
-
-                .divNav{
-
-                
-
-                    .divUno{
-                    width: 7%;  
-                    }
-
-                    
-                }
-
-                .ulUno
-                { .botonesMenu{
-                    font-size: 70%;
-                    }
-                }
-            }
-            
-            #mainContacto{
-               
-            
-        
-                #sectionContacto{
-                        height: 70%;
-
-                    #divMainForm{
-                        width: 60%;
-                        height: 40%;
-                        margin-top: -20%;
-
-                       
-
-                        form { 
-                           
-                        
-                        
-                        fieldset{
-                           
-
-                            legend{
-                               margin: 0;
-                               width: 100%;
-                                
-                                
-                            
-                        
-                                    .parrafoFormulario{
-                                        font-size: 60%;
-                                        text-align: center;
-                                        }
-                                }
-                        ol{ 
-                           
-                        
-                            #liNombre{
-
-                                .labelForm
-                                {
-                            
-                                    font-size: 13px;
-                               }
-
-                               .inputEfecto {
-                                font-size: 13px;
-                                    }
-                           
-    
-                            
-                            }
-                            
-                            #liTelef{
-
-                                .labelForm
-                                {
-                                   
                                     font-size: 13px;
                                }
                             
@@ -2001,7 +1230,7 @@
                                {
                                    width: 100%;
                                    height: 160%;
-                                   font-size: 12px;
+                                   font-size: 13px;
                                }
                             }
                             
@@ -2016,7 +1245,7 @@
                                }
                             
                                #flexRadioDefault1{
-                                width: 4%;
+                                width: 6%;
                                 margin-top: 0;
                             }
                             }
@@ -2027,7 +1256,7 @@
 
                                 .botonForm{
                                 
-                                    font-size: 85%;
+                                    font-size: 90%;
                                 }
                                 
                               
@@ -2044,14 +1273,278 @@
             }
 
             #divMainRedes{
-                width: 40%;
-                height: 25%;
+                width: 60%;
+                height: 40%;
+                opacity: 0.85;
+                margin-bottom: 20%;
                 
 
     
             
                 #spanInstagram{
-                    width: 40%;
+                    width: 60%;
+
+                            img{
+                                width: 100%;
+                            }
+                }
+                
+
+
+                #spanLinkIg{
+                     
+
+                    #botonHache{
+
+                        font-size: 15px;
+                        text-align: center;
+            
+                    }
+                    
+                  
+                }
+            }
+        }
+    
+        
+                        
+                        
+                    
+
+
+            .sectionTitulo{
+                margin-bottom: -20%;
+                margin-top: 0%;
+
+                .divTitulo {
+                    width: 70%;
+                    height: 30%;
+                    
+                   
+                   
+                    
+                    
+                    .tituloMain{
+                        font-size: 95%;
+                        height: 100%;
+                        padding-top: 4%;
+                    }
+                 }
+
+            }
+
+               
+                   
+                    
+                }
+        
+        
+                .parrafoCopyright {
+                font-size: 70%;
+                }
+        
+    
+            
+        }
+}
+}
+
+
+
+// DESDE 768PX //
+
+@media only screen and (min-width: 768px)
+{
+    #fondoFilosofiaHache{
+        @include pantallaTres ($min600);
+        
+        .grid{ 
+            grid-template-rows: 3% 94.7% 2.3%;
+            
+            header{
+
+                .divNav{
+
+                
+
+                    .divUno{
+                    width: 10%;  
+                    }
+
+                    
+                }
+
+                .ulUno
+                { .botonesMenu{
+                    font-size: 100%;
+                    }
+                }
+            }
+            
+            #mainContacto{
+               
+            
+        
+                #sectionContacto{
+                        height: 70%;
+
+                    #divMainForm{
+                        width: 65%;
+                        height: 45%;
+                        margin-top: -10%;
+
+                       
+
+                        form { 
+                           
+                        
+                        
+                        fieldset{
+                           
+
+                            legend{
+                               margin: 0;
+                               width: 100%;
+                                
+                                
+                            
+                        
+                                    .parrafoFormulario{
+                                        font-size: 70%;
+                                        text-align: center;
+                                        }
+                                }
+                        ol{ 
+                           
+                        
+                            #liNombre{
+
+                                .labelForm
+                                {
+                            
+                                    font-size: 14px;
+                               }
+
+                               .inputEfecto {
+                                font-size: 14px;
+                                    }
+                           
+    
+                            
+                            }
+                            
+                            #liTelef{
+
+                                .labelForm
+                                {
+                                   
+                                    font-size: 14px;
+                               }
+                            
+                               .inputEfecto {
+                                font-size: 14px;
+                                    }
+            
+                            }
+                            
+                            #liEmail{
+                
+
+                                .labelForm
+                                {
+                                    font-size: 14px;
+                               }
+                            
+                               .inputEfecto {
+                                font-size: 14px;
+                                    }
+                           
+                            
+                            }
+                            
+                            #liPublicidad {
+                               
+
+                                .labelForm
+                                {
+                                
+                                    font-size: 14px;
+                                   
+                               }
+                            
+                               select{
+                            
+                                font-size: 80%;
+                                }
+                            }
+                            
+                            .liComentarios {
+                             width: 100%;
+                                
+                               
+                                
+
+                                .labelForm
+                                {
+                    
+                                    font-size: 14px;
+                               }
+                            
+                               #floatingTextarea
+                               {
+                                   width: 100%;
+                                   height: 160%;
+                                   font-size: 13px;
+                               }
+                            }
+                            
+                            #liTerminos{
+                                padding-top: 5%;
+                                padding-bottom: -5%;
+                                   
+                                .labelForm
+                                {
+                                   
+                                    font-size: 14px;
+                               }
+                            
+                               #flexRadioDefault1{
+                                width: 5%;
+                                margin-top: 0;
+                            }
+                            }
+                            
+                            
+                            #liForm{
+                            
+
+                                .botonForm{
+                                
+                                    font-size: 90%;
+                                }
+                                
+                              
+                            
+                            }
+                        
+                        }
+
+                    }
+                }
+
+
+
+            }
+
+            #divMainRedes{
+                width: 50%;
+                height: 35%;
+                
+
+    
+            
+                #spanInstagram{
+                    width: 50%;
 
                             img{
                                 width: 100%;
@@ -2092,8 +1585,267 @@
                     
                     
                     .tituloMain{
+                        font-size: 120%;
+                        height: 100%;
+                        padding-top: 5%;
+                    }
+                 }
+
+            }
+
+               
+                   
+                    
+                }
+        
+        
+                .parrafoCopyright {
+                font-size: 75%;
+                }
+        
+    
+            
+        }
+}
+}
+
+// DESDE 992PX //
+
+@media only screen and (min-width: 992px)
+{
+    #fondoFilosofiaHache{
+        @include pantallaTres ($min600);
+        
+        .grid{ 
+            grid-template-rows: 3% 94.5% 2.5%;
+            
+            header{
+
+                .divNav{
+
+                
+
+                    .divUno{
+                    width: 8%;  
+                    }
+
+                    
+                }
+
+                .ulUno
+                { .botonesMenu{
+                    font-size: 100%;
+                    }
+                }
+            }
+            
+            #mainContacto{
+               
+            
+        
+                #sectionContacto{
+                        height: 85%;
+
+                    #divMainForm{
+                        width: 60%;
+                        height: 35%;
+                        margin-top: 0%;
+
+                       
+
+                        form { 
+                           
+                        
+                        
+                        fieldset{
+                           
+
+                            legend{
+                               margin: 0;
+                               width: 100%;
+                                
+                                
+                            
+                        
+                                    .parrafoFormulario{
+                                        font-size: 60%;
+                                        text-align: center;
+                                        }
+                                }
+                        ol{ 
+                           
+                        
+                            #liNombre{
+
+                                .labelForm
+                                {
+                            
+                                    font-size: 15px;
+                               }
+
+                               .inputEfecto {
+                                font-size: 15px;
+                                    }
+                           
+    
+                            
+                            }
+                            
+                            #liTelef{
+
+                                .labelForm
+                                {
+                                   
+                                    font-size: 15px;
+                               }
+                            
+                               .inputEfecto {
+                                font-size: 15px;
+                                    }
+            
+                            }
+                            
+                            #liEmail{
+                
+
+                                .labelForm
+                                {
+                                    font-size: 15px;
+                               }
+                            
+                               .inputEfecto {
+                                font-size: 15px;
+                                    }
+                           
+                            
+                            }
+                            
+                            #liPublicidad {
+                               
+
+                                .labelForm
+                                {
+                                
+                                    font-size: 15px;
+                                   
+                               }
+                            
+                               select{
+                            
+                                font-size: 90%;
+                                }
+                            }
+                            
+                            .liComentarios {
+                             width: 100%;
+                                
+                               
+                                
+
+                                .labelForm
+                                {
+                    
+                                    font-size: 15px;
+                               }
+                            
+                               #floatingTextarea
+                               {
+                                   width: 100%;
+                                   height: 160%;
+                                   font-size: 14px;
+                               }
+                            }
+                            
+                            #liTerminos{
+                                padding-top: 5%;
+                                padding-bottom: -5%;
+                                   
+                                .labelForm
+                                {
+                                   
+                                    font-size: 15px;
+                               }
+                            
+                               #flexRadioDefault1{
+                                width: 4%;
+                                margin-top: 0;
+                            }
+                            }
+                            
+                            
+                            #liForm{
+                            
+
+                                .botonForm{
+                                
+                                    font-size: 95%;
+                                }
+                                
+                              
+                            
+                            }
+                        
+                        }
+
+                    }
+                }
+
+
+
+            }
+
+            #divMainRedes{
+                width: 50%;
+                height: 35%;
+                
+
+    
+            
+                #spanInstagram{
+                    width: 50%;
+
+                            img{
+                                width: 100%;
+                            }
+                }
+                
+
+
+                #spanLinkIg{
+                    
+
+                    #botonHache{
+
+                        font-size: 16px;
+                        text-align: center;
+            
+                    }
+                    
+                  
+                }
+            }
+        }
+    
+        
+                        
+                        
+                    
+
+
+            .sectionTitulo{
+                margin-top: 10%;
+                margin-bottom: -5%;
+
+                .divTitulo {
+                    width: 65%;
+                    height: 40%;
+                   
+                   
+                    
+                    
+                    .tituloMain{
                         font-size: 110%;
-                        height: 140%;
+                        height: 100%;
                         padding-top: 5%;
                     }
                  }
@@ -2106,7 +1858,265 @@
                 }
         
                 .parrafoCopyright {
-                font-size: 80%;
+                font-size: 85%;
+                }
+        
+    
+            
+        }
+}
+}
+
+
+// DESDE 1080PX //
+
+@media only screen and (min-width: 1080px)
+{
+    #fondoFilosofiaHache{
+        @include pantallaTres ($min600);
+        
+        .grid{ 
+            grid-template-rows: 3% 94% 3%;
+            
+            header{
+
+                .divNav{
+
+                
+
+                    .divUno{
+                    width: 7%;  
+                    }
+
+                    
+                }
+
+                .ulUno
+                { .botonesMenu{
+                    font-size: 100%;
+                    }
+                }
+            }
+            
+            #mainContacto{
+               
+            
+        
+                #sectionContacto{
+                        height: 90%;
+
+                    #divMainForm{
+                        width: 60%;
+                        height: 40%;
+                        margin-top: 5%;
+
+                       
+
+                        form { 
+                           
+                        
+                        
+                        fieldset{
+                           
+
+                            legend{
+                               margin: 0;
+                               width: 100%;
+                                
+                                
+                            
+                        
+                                    .parrafoFormulario{
+                                        font-size: 80%;
+                                        text-align: center;
+                                        }
+                                }
+                        ol{ 
+                           
+                        
+                            #liNombre{
+
+                                .labelForm
+                                {
+                            
+                                    font-size: 16px;
+                               }
+
+                               .inputEfecto {
+                                font-size: 16px;
+                                    }
+                           
+    
+                            
+                            }
+                            
+                            #liTelef{
+
+                                .labelForm
+                                {
+                                   
+                                    font-size: 16px;
+                               }
+                            
+                               .inputEfecto {
+                                font-size: 16px;
+                                    }
+            
+                            }
+                            
+                            #liEmail{
+                
+
+                                .labelForm
+                                {
+                                    font-size: 16px;
+                               }
+                            
+                               .inputEfecto {
+                                font-size: 16px;
+                                    }
+                           
+                            
+                            }
+                            
+                            #liPublicidad {
+                               
+
+                                .labelForm
+                                {
+                                
+                                    font-size: 16px;
+                                   
+                               }
+                            
+                               select{
+                            
+                                font-size: 95%;
+                                }
+                            }
+                            
+                            .liComentarios {
+                             width: 100%;
+                                
+                               
+                                
+
+                                .labelForm
+                                {
+                    
+                                    font-size: 16px;
+                               }
+                            
+                               #floatingTextarea
+                               {
+                                   width: 100%;
+                                   height: 160%;
+                                   font-size: 15px;
+                               }
+                            }
+                            
+                            #liTerminos{
+                                padding-top: 5%;
+                                padding-bottom: -5%;
+                                   
+                                .labelForm
+                                {
+                                   
+                                    font-size: 16px;
+                               }
+                            
+                               #flexRadioDefault1{
+                                width: 4%;
+                                margin-top: 0;
+                            }
+                            }
+                            
+                            
+                            #liForm{
+                            
+
+                                .botonForm{
+                                
+                                    font-size: 100%;
+                                }
+                                
+                              
+                            
+                            }
+                        
+                        }
+
+                    }
+                }
+
+
+
+            }
+
+            #divMainRedes{
+                width: 40%;
+                height: 30%;
+                
+
+    
+            
+                #spanInstagram{
+                    width: 40%;
+
+                            img{
+                                width: 100%;
+                            }
+                }
+                
+
+
+                #spanLinkIg{
+                    
+
+                    #botonHache{
+
+                        font-size: 16px;
+                        text-align: center;
+            
+                    }
+                    
+                  
+                }
+            }
+        }
+    
+        
+                        
+                        
+                    
+
+
+            .sectionTitulo{
+            
+
+                .divTitulo {
+                    width: 65%;
+                    height: 40%;
+                   
+                   
+                    
+                    
+                    .tituloMain{
+                        font-size: 150%;
+                        height: 140%;
+                        padding-top: 3%;
+                    }
+                 }
+
+            }
+
+               
+                   
+                    
+                }
+        
+                .parrafoCopyright {
+                font-size: 100%;
                 }
         
     

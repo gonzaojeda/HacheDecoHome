@@ -81,8 +81,8 @@
 
 
                 #sectionSobreNos{
-                    width: 70%;
-                    height: 12%;
+                    width: 80%;
+                    height: 15%;
                     display: flex;
                     flex-direction: row;
                     margin-top: -25%;
@@ -206,7 +206,7 @@
         @include pantallaDos ($max600);
         
         .grid{ 
-            grid-template-rows: 3% 94% 3%;
+            grid-template-rows: 3% 95% 2%;
             
             header{
 
@@ -223,7 +223,7 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 80%;
                     }
                 }
             }
@@ -243,11 +243,10 @@
                                     .tituloMain{
                                         color:$colorBordes;
                                         text-align: center;
-                                        margin-left: 30%;
-                                        margin-right: 30%;
                                         font-family: $fuente;
-                                        padding-top: 5%;
-                                        font-size: 70%;
+                                        padding-top: 6%;
+                                        font-size: 85%;
+                                        width: 100%;
                                     }
                                  }
                         }
@@ -266,7 +265,7 @@
             
                                     .parrafoSobreNos {
                                     color: $colorBordes;
-                                    font-size: 55%;
+                                    font-size: 65%;
                                     text-align: justify;
                                     font-family: $fuente;
                                     margin: 1% 2% 2% 2%;   
@@ -274,6 +273,9 @@
                             }
                         }
                     }
+                      #sectionFilosofiaHache{
+                             margin:0;
+
                             #divFilosofiaHache{ 
                                     width: 50%;
                                     height: 25%;
@@ -283,7 +285,7 @@
     
                                     #tituloFilosofiaHache{
                                     color:$colorBordes;
-                                    font-size: 70%;
+                                    font-size: 80%;
                                     height: 100%;
                                     text-align: center;
                                     margin-left: 10px;
@@ -292,10 +294,11 @@
                                     font-family: $fuente;
                                     }                    
                     }
-        
+                    
+                }
                             .divCaracteristicas
                                     {width: 30%;
-                                    height: 42%;
+                                    height: 50%;
                                     background-color: $colorFondo;
                                     border: 1px dotted $colorBordes;
                                     opacity: 0.9;
@@ -304,7 +307,7 @@
                                     .parrafoCaracteristicas{
                                     color:$colorBordes;
                                     font-weight: bolder;
-                                    font-size: 50%;
+                                    font-size: 65%;
                                     text-align: center;
                                     margin-left: 10px;
                                     margin-right: 10px;
@@ -314,7 +317,6 @@
                                 }
         
     
-        
         
         }
         
@@ -354,7 +356,7 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 90%;
                     }
                 }
             }
@@ -363,13 +365,17 @@
                     .sectionTitulo{
                         
                             .divTitulo {
-                                 width: 85%;
+                                 width: 70%;
                                  height: 40%;
                                     
                                     
                                     .tituloMain{
-                                        font-size: 55%;
+                                        width: 100%;
+                                        font-size: 70%;
+                                        margin: 0% 0% 0% 0%;
+                                        padding-top: 4%;
                                     }
+                                        
                                  }
                         }
 
@@ -380,27 +386,29 @@
                                     height: 120%;
                         
                                     .parrafoSobreNos {
-                                    font-size: 40%;
+                                    font-size: 50%;
                                     
                                 
                 
                             } 
                         }
                     }
-     
+                        #sectionFilosofiaHache{
                             #divFilosofiaHache{ 
     
                                     #tituloFilosofiaHache{
-                                    font-size: 50%;
-                                    }                    
+                                    font-size: 70%;
+                                    margin-top: 2%;
+                                    }        
+                                                   
                     }
-        
+                }
                             .divCaracteristicas{
-                                    width: 25%;
-                                    height: 50%;
+                                    width: 30%;
+                                    height: 70%;
 
                                     .parrafoCaracteristicas{
-                                    font-size: 40%;
+                                    font-size: 60%;
         
                                 }
         
@@ -429,7 +437,7 @@
         @include pantallaTres ($min600);
         
         .grid{ 
-            grid-template-rows: 3% 94% 3%;
+            grid-template-rows: 3% 95% 2%;
             
             header{
 
@@ -446,7 +454,7 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 90%;
                     }
                 }
             }
@@ -465,11 +473,11 @@
                                 .tituloMain{
                                     color:$colorBordes;
                                     text-align: center;
-                                    margin-left: 30%;
-                                    margin-right: 30%;
+                                    margin-left: 5%;
+                                    margin-right: 5%;
                                     font-family: $fuente;
                                     padding-top: 5%;
-                                    font-size: 75%;
+                                    font-size: 90%;
                                 }
                              }
                     }
@@ -488,7 +496,7 @@
         
                                 .parrafoSobreNos {
                                 color: $colorBordes;
-                                font-size: 65%;
+                                font-size: 75%;
                                 text-align: justify;
                                 font-family: $fuente;
                                 margin: 1% 2% 2% 2%;   
@@ -505,7 +513,7 @@
 
                                 #tituloFilosofiaHache{
                                 color:$colorBordes;
-                                font-size: 80%;
+                                font-size: 85%;
                                 height: 100%;
                                 text-align: center;
                                 margin-left: 10px;
@@ -517,7 +525,7 @@
     
                         .divCaracteristicas
                                 {width: 30%;
-                                height: 42%;
+                                height: 50%;
                                 background-color: $colorFondo;
                                 border: 1px dotted $colorBordes;
                                 opacity: 0.9;
@@ -526,7 +534,7 @@
                                 .parrafoCaracteristicas{
                                 color:$colorBordes;
                                 font-weight: bolder;
-                                font-size: 60%;
+                                font-size: 75%;
                                 text-align: center;
                                 margin-left: 10px;
                                 margin-right: 10px;
@@ -540,7 +548,7 @@
         
         
                 .parrafoCopyright {
-                font-size: 60%;
+                font-size: 70%;
                 }
         
     
@@ -557,7 +565,7 @@
         @include pantallaCuatro ($min768);
         
         .grid{ 
-            grid-template-rows: 3% 94% 3%;
+            grid-template-rows: 3% 94.8% 2.2%;
             
             header{
 
@@ -574,7 +582,7 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 100%;
                     }
                 }
             }
@@ -588,8 +596,8 @@
                                     
                                     
                                     .tituloMain{
-                                        font-size: 100%;
-                                        padding-top: 7%;
+                                        font-size: 120%;
+                                        padding-top: 6%;
                                     }
                                  }
                         }
@@ -601,25 +609,26 @@
                                     height: 100%;
                         
                                     .parrafoSobreNos {
-                                    font-size: 85%;
+                                    font-size: 110%;
                                 
                 
                             }
                         }
                     }
                             #divFilosofiaHache{ 
-    
+                                
                                     #tituloFilosofiaHache{
-                                    font-size: 90%;
+                                    font-size: 100%;
+                                    margin-top: 3%;
                                     }                    
                     }
         
                             .divCaracteristicas{
-                                    width: 30%;
-                                    height: 40%;
+                                    width: 25%;
+                                    height: 45%;
 
                                     .parrafoCaracteristicas{
-                                    font-size: 70%;
+                                    font-size: 80%;
         
                                 }
         
@@ -627,14 +636,21 @@
         
         
         }
-        
+            footer{
+
+              #divFooterUno{
+                .divFooter{
+
+                 width: 10%;
+        }
+        }
         
                 .parrafoCopyright {
                 font-size: 60%;
                 }
         
     
-            
+            }  
         }
 }
 }
@@ -648,7 +664,7 @@
         @include pantallaCinco ($min992);
         
         .grid{ 
-            grid-template-rows: 3% 94% 3%;
+            grid-template-rows: 3% 94.8% 2.2%;
             
             header{
 
@@ -665,7 +681,7 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 100%;
                     }
                 }
             }
@@ -718,12 +734,14 @@
         
         
         }
-        
+                .divCopyright {
+                    height: 20%;
+               
         
                 .parrafoCopyright {
-                font-size: 60%;
+                font-size: 80%;
                 }
-        
+            }
     
             
         }
@@ -739,7 +757,7 @@
         @include pantallaSeis ($min1080);
         
         .grid{ 
-            grid-template-rows: 3% 95.5% 2.5%;
+            grid-template-rows: 3% 94.8% 2.2%;
             
             header{
 
@@ -756,7 +774,7 @@
 
                 .ulUno
                 { .botonesMenu{
-                    font-size: 70%;
+                    font-size: 100%;
                     }
                 }
             }
@@ -770,7 +788,7 @@
                                     
                                     
                                     .tituloMain{
-                                        font-size: 140%;
+                                        font-size: 150%;
                                         padding-top: 5%;
                                     }
                                  }
@@ -783,43 +801,47 @@
                                     height: 100%;
                         
                                     .parrafoSobreNos {
-                                    font-size: 110%;
+                                    font-size: 125%;
                                 
                 
                             }
                         }
                     }
+                       #sectionFilosofiaHache{
+
+                       
                             #divFilosofiaHache{
                                     height: 30%; 
                                     width: 40%;
     
                                     #tituloFilosofiaHache{
-                                    font-size: 105%;
-                                    padding-bottom: 5%;
-                                    }                    
+                                    font-size: 115%;
+                                    padding-top: 3%;
+                                    }      
+                                }              
                     }
         
                             .divCaracteristicas{
                                     width: 30%;
-                                    height: 52%;
+                                    height: 45%;
 
                                     .parrafoCaracteristicas{
-                                    font-size: 90%;
+                                    font-size: 100%;
+                                    margin-top: 14%;
         
                                 }
         
                             }
         
         
-        }
+        }      .divCopyright{
+
         
-        
-                .parrafoCopyright {
-                font-size: 80%;
-                }
-        
-    
-            
+
+             .parrafoCopyright{
+                font-size: 100%;
+             }
+            }
         }
 }
 }
